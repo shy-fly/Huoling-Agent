@@ -1,0 +1,11 @@
+# 工作区与工具缓存
+.workbuddy/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# 环境与密钥
+.env
+.env.*
+!.env.example
