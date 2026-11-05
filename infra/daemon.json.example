@@ -1,0 +1,7 @@
+{
+  "_comment": "可选：仅在国内无法访问 Docker Hub / deb.debian.org 时在 Docker Desktop → Docker Engine 中合并 registry-mirrors",
+  "registry-mirrors": [
+    "https://docker.m.daocloud.io",
+    "https://docker.1panel.live"
+  ]
+}

@@ -1,0 +1,58 @@
+services:
+  api:
+    build:
+      context: ./backend
+      dockerfile: ../infra/Dockerfile.api
+      args:
+        REGISTRY_MIRROR: ${DOCKER_REGISTRY_MIRROR:-}
+        APT_MIRROR: ${DOCKER_APT_MIRROR:-}
+    ports:
+      - "127.0.0.1:${API_HOST_PORT:-8001}:8000"
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      DATABASE_URL: sqlite:////app/data/digester.db
+      KNOWLEDGE_ROOT: /app/knowledge
+      FRONTEND_ORIGIN: ${FRONTEND_ORIGIN:-http://localhost:5174}
+      APP_ENV: production
+      APP_RELEASE: ${APP_RELEASE:-firefairy-contest-4.0.0}
+      PROJECT_ROOT: /app
+      DOCKER_SEED_KNOWLEDGE: ${DOCKER_SEED_KNOWLEDGE:-true}
+      USE_LLM: ${USE_LLM:-false}
+      LLM_API_KEY: ${LLM_API_KEY:-}
+      LLM_PROVIDER: ${LLM_PROVIDER:-deepseek}
+      LLM_API_BASE: ${LLM_API_BASE:-https://api.deepseek.com}
+      LLM_MODEL: ${LLM_MODEL:-deepseek-flash}
+      LLM_TIMEOUT_MS: ${LLM_TIMEOUT_MS:-60000}
+      LLM_MAX_TOKENS_POLISH: ${LLM_MAX_TOKENS_POLISH:-2048}
+      LLM_MAX_TOKENS_QA: ${LLM_MAX_TOKENS_QA:-4096}
+      LLM_THINKING_ENABLED: ${LLM_THINKING_ENABLED:-false}
+      RAG_TOP_K: ${RAG_TOP_K:-5}
+      RAG_USE_VECTOR: ${RAG_USE_VECTOR:-true}
+      ADMIN_TOKEN: ${ADMIN_TOKEN:-}
+    volumes:
+      - ./knowledge:/app/knowledge:ro
+      - ./backend/data:/app/data
+      - ./backend/app/prompts:/app/app/prompts
+      - ./project_agent_context.json:/app/project_agent_context.json
+    healthcheck:
+      test: ["CMD-SHELL", "python3 -c \"import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health')\""]
+      interval: 15s
+      timeout: 10s
+      retries: 10
+      start_period: 120s
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: ../infra/Dockerfile.frontend
+      args:
+        REGISTRY_MIRROR: ${DOCKER_REGISTRY_MIRROR:-}
+    ports:
+      - "${FRONTEND_BIND_IP:-127.0.0.1}:${FRONTEND_HOST_PORT:-5174}:80"
+    depends_on:
+      api:
+        condition: service_healthy
+    restart: unless-stopped

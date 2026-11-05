@@ -1,0 +1,16 @@
+[
+  {
+    "viewport": "desktop",
+    "inlineEvidence": "Yang Table 1",
+    "pdfPage": 4,
+    "rawTable": "Table 1 Methane production, biodegradability, TAN, and FAN concentration in different phases.",
+    "overflow": false
+  },
+  {
+    "viewport": "mobile",
+    "inlineEvidence": "Yang Table 1",
+    "pdfPage": 4,
+    "rawTable": "Table 1 Methane production, biodegradability, TAN, and FAN concentration in different phases.",
+    "overflow": false
+  }
+]

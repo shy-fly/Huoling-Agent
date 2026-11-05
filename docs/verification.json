@@ -1,0 +1,88 @@
+{
+  "date": "2026-11-05",
+  "status": "local_demo_ready_public_distribution_requires_review",
+  "backendTests": {
+    "passed": 126,
+    "skipped": 1,
+    "reason": "Tesseract unavailable"
+  },
+  "typecheck": "passed",
+  "viteBuild": "passed",
+  "liveModel": {
+    "provider": "api.deepseek.com",
+    "model": "deepseek-flash",
+    "cases": 6,
+    "allModelWithReferences": true,
+    "validCitationIndices": true,
+    "pdfSnippetVerification": true,
+    "results": "multilingual-results.json"
+  },
+  "qaToCompare": {
+    "desktop": "passed",
+    "mobile": "passed",
+    "identityCheck": "passed",
+    "results": "screenshots/handoff-checks.json"
+  },
+  "screenshots": {
+    "count": 26,
+    "pages": [
+      "audit",
+      "compare",
+      "design",
+      "evolution",
+      "falsification",
+      "gaps",
+      "graph",
+      "home",
+      "media",
+      "media-table",
+      "qa"
+    ],
+    "allRealSubmissions": true,
+    "includesSourceFiguresAndTables": true,
+    "extraViews": [
+      "inline source table",
+      "extracted table values"
+    ],
+    "multimodalChecks": [
+      {
+        "viewport": "desktop",
+        "inlineEvidence": "Yang Table 1",
+        "pdfPage": 4,
+        "rawTable": "Table 1 Methane production, biodegradability, TAN, and FAN concentration in different phases.",
+        "overflow": false
+      },
+      {
+        "viewport": "mobile",
+        "inlineEvidence": "Yang Table 1",
+        "pdfPage": 4,
+        "rawTable": "Table 1 Methane production, biodegradability, TAN, and FAN concentration in different phases.",
+        "overflow": false
+      }
+    ]
+  },
+  "demoPapers": {
+    "count": 58,
+    "authorization": "user authorized local demo packaging",
+    "publicRedistribution": "not established"
+  },
+  "credentials": {
+    "included": false,
+    "rotation": "account owner must rotate previously exposed credentials"
+  },
+  "previousFreshInstall": {
+    "python": "passed",
+    "npmCi": "passed",
+    "dependencyChangesThisRound": false
+  },
+  "archiveVerification": {
+    "newDatabaseInitialization": "passed",
+    "papers": 58,
+    "chunks": 4846,
+    "typecheck": "passed",
+    "viteBuild": "passed",
+    "realLocalHttpEndpoints": 9,
+    "results": "archive-api-results.json",
+    "modelMode": "USE_LLM=false; separate six-case model acceptance is documented"
+  }
+}

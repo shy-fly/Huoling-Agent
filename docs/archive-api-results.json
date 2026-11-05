@@ -1,0 +1,39 @@
+{
+  "qa": {
+    "status": 200
+  },
+  "compare": {
+    "status": 200
+  },
+  "qaToCompare": {
+    "paperCount": 2,
+    "identityCheck": "passed"
+  },
+  "falsification": {
+    "status": 200
+  },
+  "gaps": {
+    "status": 200
+  },
+  "experiment-design": {
+    "status": 200
+  },
+  "media/search": {
+    "status": 200
+  },
+  "knowledge-graph/build": {
+    "status": 200
+  },
+  "reliability-audit": {
+    "status": 200
+  },
+  "evolution": {
+    "status": 200
+  },
+  "evidence": {
+    "source": "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf",
+    "page": 4,
+    "records": 16,
+    "experimentalUnits": 4
+  }
+}

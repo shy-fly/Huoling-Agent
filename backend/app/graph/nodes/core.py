@@ -1,0 +1,1 @@
+"""fireFairyContest 图节点 — 科研版精简。"""

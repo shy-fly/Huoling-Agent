@@ -1,0 +1,13 @@
+sources:
+  - path: literature_corpus/inhibition
+    collection: literature_inhibition
+    type: pdf_dir
+    source_id: literature_zip:inhibition
+  - path: literature_corpus/theory
+    collection: literature_theory
+    type: pdf_dir
+    source_id: literature_zip:theory
+  - path: literature_corpus/engineering
+    collection: literature_engineering
+    type: pdf_dir
+    source_id: literature_zip:engineering

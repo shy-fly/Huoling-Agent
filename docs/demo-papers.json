@@ -1,0 +1,292 @@
+[
+  {
+    "path": "knowledge/literature_corpus/engineering/AD_FoodWaste_Microbial_Consortia.pdf",
+    "bytes": 1114291,
+    "sha256": "7ec67d7fc10d0214f906957cf3a06c20d4b9dd1773c8d5df8f0b32ed2fbd2e9b"
+  },
+  {
+    "path": "knowledge/literature_corpus/engineering/AnMBR_LCA_cost_analysis.pdf",
+    "bytes": 1110724,
+    "sha256": "e10e18e8eb9000f49e5ce33465544021e30345146a32d23594a09a262c381916"
+  },
+  {
+    "path": "knowledge/literature_corpus/engineering/Aquatic_biomass_AD_challenges.pdf",
+    "bytes": 131465,
+    "sha256": "c049a886f7ae778713381281e6f013c189d60d0888a668bf1b8b66b48e6a022d"
+  },
+  {
+    "path": "knowledge/literature_corpus/engineering/Biochar_AD_composting.pdf",
+    "bytes": 3756970,
+    "sha256": "70a3e6f7fe486add9d497b81ef5a8f59e11ec23f399de54868937db13e76764c"
+  },
+  {
+    "path": "knowledge/literature_corpus/engineering/Biogas_Upgrading_SingleMembrane.pdf",
+    "bytes": 1975907,
+    "sha256": "6b438efced93617aa092c76b7560b97cb1eb18178309344fda263d7530156262"
+  },
+  {
+    "path": "knowledge/literature_corpus/engineering/Future_AD_Challenges_Opportunities.pdf",
+    "bytes": 4254543,
+    "sha256": "ba5831758faab83bdc8333e1a714f678d506377a9f5641944a27e94ecdfb11c8"
+  },
+  {
+    "path": "knowledge/literature_corpus/engineering/Methanogens_biochemical_background.pdf",
+    "bytes": 1718748,
+    "sha256": "28b100ce6bcfdab53a1fc16df84759c506ad6d778c9ef47d9342f1ba4ee701aa"
+  },
+  {
+    "path": "knowledge/literature_corpus/engineering/Microbiological_insights_AD.pdf",
+    "bytes": 2006854,
+    "sha256": "1b5aa67bd7547e8851a9d52dbae1700ae641204d13fe89877db55aa8b4e85630"
+  },
+  {
+    "path": "knowledge/literature_corpus/engineering/Review_AD_FoodWaste_2024.pdf",
+    "bytes": 2741446,
+    "sha256": "864504f1f69c03a3c7836890cb04d1c96d6032453a91febeb9bbe55ddc61e274"
+  },
+  {
+    "path": "knowledge/literature_corpus/engineering/Review_AD_Processes_Parameters_Optimization.pdf",
+    "bytes": 1451293,
+    "sha256": "14ab6c8136b55b1da6961daddf19abf88f955b136b050e4fbc48e4374c8f5112"
+  },
+  {
+    "path": "knowledge/literature_corpus/engineering/Technologies_Biogas_Upgrading_Review.pdf",
+    "bytes": 8379592,
+    "sha256": "139b62f7c5a74835f9487ed372904e64c33a75973d7275f0c623b8e7ab0293ac"
+  },
+  {
+    "path": "knowledge/literature_corpus/engineering/Thermophilic_vs_Mesophilic_AD_Review.pdf",
+    "bytes": 1136345,
+    "sha256": "253b1f0cf5ef6725080b6a71995bc17901a688b077a831b29d73e56827416dc8"
+  },
+  {
+    "path": "knowledge/literature_corpus/engineering/TS_effect_AD_foodwaste.pdf",
+    "bytes": 808028,
+    "sha256": "a02250130ed924711ca3e13a64f2c4b068f17917a0f80e340816fff4cf058764"
+  },
+  {
+    "path": "knowledge/literature_corpus/inhibition/Competition for ethanol between sulfate-reduci.pdf",
+    "bytes": 825727,
+    "sha256": "da21e603042942f560c6f4b69650ada4e889255543ff94986b756d5d53575d09"
+  },
+  {
+    "path": "knowledge/literature_corpus/inhibition/Enviro Toxic and Chemistry - 2009 - Loftin - I.pdf",
+    "bytes": 58411,
+    "sha256": "225c9e6e60d2b7d700f9cf8cfaceac391544943e7a233f116aa637e45d940f31"
+  },
+  {
+    "path": "knowledge/literature_corpus/inhibition/Florentino-2019-Overcoming-ammonia-inhibition-.pdf",
+    "bytes": 4071053,
+    "sha256": "21188b1ec8d7547b30ef2017e0e5b2199e869239d30ebc43a206deaca5a30cd6"
+  },
+  {
+    "path": "knowledge/literature_corpus/inhibition/Fotidis-2013-Effect-of-ammonium-and-acetate-on.pdf",
+    "bytes": 384598,
+    "sha256": "1bee923075d2288593593b01647550939d8b9eeca11956b983e10cfadd0d148b"
+  },
+  {
+    "path": "knowledge/literature_corpus/inhibition/Koster-1987-Inhibition of methanogenesis from.pdf",
+    "bytes": 961990,
+    "sha256": "a527cf7840ad91139bfe79b29a10abc5b1471a2b9d32bb80a2535886f78aea98"
+  },
+  {
+    "path": "knowledge/literature_corpus/inhibition/Koster-Koomen1988_Article_AmmoniaInhibitionOfT.pdf",
+    "bytes": 545398,
+    "sha256": "5cc0e94528de25551067f5a1274d84d710f8009cc153845b76ea46f8e6a80819"
+  },
+  {
+    "path": "knowledge/literature_corpus/inhibition/Letelier-Gordo-2020-Increased sulfate availabi.pdf",
+    "bytes": 950686,
+    "sha256": "ea06487e37424922c5f684f239a702923d8179a15a70c7f6dc5233638ac1cd0c"
+  },
+  {
+    "path": "knowledge/literature_corpus/inhibition/Mitigation of ammonia inhibition through bioau.pdf",
+    "bytes": 2143332,
+    "sha256": "69de05e23682abe84977ce7a624214f74b9e19ea1ca69bcadfcd2767c04135c1"
+  },
+  {
+    "path": "knowledge/literature_corpus/inhibition/Progress in inhibition mechanisms and process.pdf",
+    "bytes": 313097,
+    "sha256": "68ce62be6e5953e85758b8218c673a75f7227d349c38fee5424bcc3119a262ea"
+  },
+  {
+    "path": "knowledge/literature_corpus/inhibition/Rasit-2015-Effects of lipid inhibition on biog.pdf",
+    "bytes": 339936,
+    "sha256": "4ca768d3767061bdaf9843cb6d2421612405caa898207875a1d95d23ba986425"
+  },
+  {
+    "path": "knowledge/literature_corpus/inhibition/Sulfidogenic anaerobic digestion of sulfate-la.pdf",
+    "bytes": 1727799,
+    "sha256": "28b2b18a8bcd1fab462b6d5f7b3a0239b1e921401de9f70f4553bd03d14b9f36"
+  },
+  {
+    "path": "knowledge/literature_corpus/inhibition/The ecology and biotechnology of sulphate-redu.pdf",
+    "bytes": 6477792,
+    "sha256": "87d43a299cfcb12ca4b59a0075097e6f215f4d3ba40ce764ea699d49e78842a6"
+  },
+  {
+    "path": "knowledge/literature_corpus/inhibition/Tian-2018-Effect-of-different-ammonia-sources.pdf",
+    "bytes": 1064152,
+    "sha256": "fcf8c39ddbff83ec06f73cd5a4e1fe471d27f2d92194759a57324545904f4279"
+  },
+  {
+    "path": "knowledge/literature_corpus/inhibition/Wang-2009-Effects of volatile fatty acid conce.pdf",
+    "bytes": 303765,
+    "sha256": "457480efd57b80f84f06d077c33c71f7b8a94f7abd7fb96f54079ed71c29fc46"
+  },
+  {
+    "path": "knowledge/literature_corpus/inhibition/Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf",
+    "bytes": 1386428,
+    "sha256": "a3a4b7bd473aec9c08097ffd9ea002d3573605bfa9785bfb1339dd06c12ba963"
+  },
+  {
+    "path": "knowledge/literature_corpus/inhibition/Yan-2020-Insights into Ammonia Adaptation and.pdf",
+    "bytes": 10207823,
+    "sha256": "a50d66897446a92120a31df42003538e068e967c7aa9dfb9cb20e7033a1336ec"
+  },
+  {
+    "path": "knowledge/literature_corpus/inhibition/Yang-2018-Effect-of-ammonia-on-methane-produc.pdf",
+    "bytes": 2728198,
+    "sha256": "07815cb1b0d92845cfbbea66d2c4f7f25473be4cf816d86692ace8cb96858c7e"
+  },
+  {
+    "path": "knowledge/literature_corpus/inhibition/Zhang-2014-Inhibitory-effects-of-ammonia-on-me.pdf",
+    "bytes": 677753,
+    "sha256": "a5e80e6337dcfdff96e7f89de6ec24c545b8eeaefc4151b3e928ce25c2fe773d"
+  },
+  {
+    "path": "knowledge/literature_corpus/inhibition/腐殖酸加快VFA和产甲烷Mitigating ammonia inhibition of t.pdf",
+    "bytes": 709496,
+    "sha256": "cce3e4eb41dbb36dfa4e500ae8f3bfcbc9bc5e0d436f4f8889f85d5f17aebd8c"
+  },
+  {
+    "path": "knowledge/literature_corpus/inhibition/（丙酸积累）Avoiding propionic acid accumulation in .pdf",
+    "bytes": 207058,
+    "sha256": "e7c1fed4a79d3c17f029065011b189228aa22d89b923cec5d92dd17338230a40"
+  },
+  {
+    "path": "knowledge/literature_corpus/theory/[R] 材料物化角度-9-综述Applications of materials as ad.pdf",
+    "bytes": 1586728,
+    "sha256": "6bbbbc7f7781cab6fcc51e8ed2b1c11d6b52d8a0a9d9cc6bbcdf5472a7bb4b6f"
+  },
+  {
+    "path": "knowledge/literature_corpus/theory/[R] 重要综述 Methane Production and Conductive Mat.pdf",
+    "bytes": 2792141,
+    "sha256": "f6ca72f07c8eb3d96126283064fdeaed3832aa37cab72a53506aed64e4df6c99"
+  },
+  {
+    "path": "knowledge/literature_corpus/theory/A new model for electron flow during anaerobic.pdf",
+    "bytes": 659200,
+    "sha256": "8def6ae64187c66c2699d9ded3d73c61b42470448296ab53214446b8b58ed584"
+  },
+  {
+    "path": "knowledge/literature_corpus/theory/Adekunle-2015-A Review of Biochemical Process.pdf",
+    "bytes": 370409,
+    "sha256": "e4ac0d8cd2bc85cf97bc8863525c297c1ace68a1e886bd91531c9bdcf229f1dd"
+  },
+  {
+    "path": "knowledge/literature_corpus/theory/Akhiar-2020-Anaerobic digestion industries pro.pdf",
+    "bytes": 883547,
+    "sha256": "de992d93f31e724df30fa2f2e2f98f9ba99d94ac01b264600ff5226531c07603"
+  },
+  {
+    "path": "knowledge/literature_corpus/theory/Anaerobic digestion in global bio-energy produ.pdf",
+    "bytes": 421021,
+    "sha256": "010182ce34004464eee75ce4ac11d031b6b65c00bfea6a4ca5efa22c811767ba"
+  },
+  {
+    "path": "knowledge/literature_corpus/theory/Biosynthesis of the Methanogenic Coenzymes.pdf",
+    "bytes": 1035177,
+    "sha256": "9073f4930d0fa763c53bf88963fddc2256e744ce26a5660714b98cdb3c32df10"
+  },
+  {
+    "path": "knowledge/literature_corpus/theory/Cazaudehore-2022-Can anaerobic digestion be a.pdf",
+    "bytes": 3664076,
+    "sha256": "a4e0a129770df1a58cc025c542bb0edfdedbeefc721a4bf2e9d18ba060ce7b35"
+  },
+  {
+    "path": "knowledge/literature_corpus/theory/Energy conservation in chemotrophic anaerobic.pdf",
+    "bytes": 13040108,
+    "sha256": "b7d362279c7f8057fb2e0ef269e544dbab6150f24f62187e37fa1857b1511733"
+  },
+  {
+    "path": "knowledge/literature_corpus/theory/Energy Transduction in Anaerobic Bacteria1.pdf",
+    "bytes": 388377,
+    "sha256": "087d003916b9ed47de08c05bb50d518a15c0f55dfee54373b071772cca5453c7"
+  },
+  {
+    "path": "knowledge/literature_corpus/theory/Gurmessa-2020-Manure anaerobic digestion effec.pdf",
+    "bytes": 3009021,
+    "sha256": "e27932ea1a2ffd3fee5c6d3bf5c39687d2befbab8b1aec020b0c0173e98cc39a"
+  },
+  {
+    "path": "knowledge/literature_corpus/theory/Holohan-2022-Principles, Advances, and Perspec.pdf",
+    "bytes": 1928467,
+    "sha256": "fff85ce97ffc6324f746186aadd15ee70cc78a1fe0def20be018e1424c406284"
+  },
+  {
+    "path": "knowledge/literature_corpus/theory/Methanogenesis.pdf",
+    "bytes": 640785,
+    "sha256": "a28bc4d8264bf1913592dc09324b115b18edd7105e845166bd7be24c0b133c73"
+  },
+  {
+    "path": "knowledge/literature_corpus/theory/Mirzoyan-2010-Anaerobic digestion of sludge fr.pdf",
+    "bytes": 473736,
+    "sha256": "a91ec3fdb31e41f7ee44bd0426bc87b988b08504db6a9f256d8a5c9b739ad1a9"
+  },
+  {
+    "path": "knowledge/literature_corpus/theory/Muller-2003-Energy conservation in acetogenic.pdf",
+    "bytes": 743967,
+    "sha256": "d1ad2018bf91b76fe2750d7334e3126e07704f90eb02b0d1d5cfaede6597bef5"
+  },
+  {
+    "path": "knowledge/literature_corpus/theory/Nozhevnikova-2020-Syntrophy and Interspecies E.pdf",
+    "bytes": 1080829,
+    "sha256": "70f96fcb1669c94728d8809a60adee315f085c86baad16538f65f059808c77cf"
+  },
+  {
+    "path": "knowledge/literature_corpus/theory/Principles and potential of the anaerobic dige.pdf",
+    "bytes": 897827,
+    "sha256": "6600bda10771da1873a29342834d324f32d86e57f002b2a3bc15485bce0041f8"
+  },
+  {
+    "path": "knowledge/literature_corpus/theory/Sayara-2019-A Review on Anaerobic Digestion of.pdf",
+    "bytes": 679977,
+    "sha256": "744a0d910f2d165cc7c972ad11b67ce69fb0989141b3e665856bf666949d1fd7"
+  },
+  {
+    "path": "knowledge/literature_corpus/theory/Syntrophy Goes Electric Direct Interspecies El.pdf",
+    "bytes": 3480464,
+    "sha256": "4cdb345381f0ec1e1bbdae6bb15f3d9ba21b6545cabe50e2dc3e691c4dc667d1"
+  },
+  {
+    "path": "knowledge/literature_corpus/theory/Timmers-2017-Reverse Methanogenesis and Respir.pdf",
+    "bytes": 1711132,
+    "sha256": "451efa93980cbec3bd6c68b6640f527746f61c8042125cf12f603f61284cfb35"
+  },
+  {
+    "path": "knowledge/literature_corpus/theory/乙酸途径引用 Methanogenesis from acetate a compariso.pdf",
+    "bytes": 1046281,
+    "sha256": "49693a28ecd713e343ac4eac272f051f81644dbfd4f6385575273648a5484c0f"
+  },
+  {
+    "path": "knowledge/literature_corpus/theory/代谢途径-神级 Energetics of Syntrophic Cooperation i.pdf",
+    "bytes": 318316,
+    "sha256": "af4ea546664397b0beaab85f11a2f98befe862f82c43f2f7b5818a1893ec8074"
+  },
+  {
+    "path": "knowledge/literature_corpus/theory/（产甲烷背景引用）The role of anaerobic digestion in th.pdf",
+    "bytes": 355767,
+    "sha256": "55ec5ac3a9a9048d39a62551a29f2b19e1b109f2d7edfafdfc1452e3f1ec25a2"
+  },
+  {
+    "path": "knowledge/literature_corpus/theory/（综述）Microbial syntrophy interaction for the c1.pdf",
+    "bytes": 1494487,
+    "sha256": "86df8e7ff2b14cd9de06035fd0160a37e490daca0c74a8f02a623bf4ca70286c"
+  },
+  {
+    "path": "knowledge/literature_corpus/theory/（非常重要-原理）Syntrophic acetate oxidizing microbes.pdf",
+    "bytes": 354204,
+    "sha256": "14960796f8d567f461827ef09d0ca4485156d49d182aa20cf8ad450716fc3860"
+  }
+]

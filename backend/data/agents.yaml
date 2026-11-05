@@ -1,0 +1,9 @@
+default_agent_id: research
+agents:
+  - id: research
+    name: 科研知识挖掘
+    description: 面向科研人员，仅检索厌氧消化文献，不依赖运行装置数据
+    rag_collections:
+      - literature_inhibition
+      - literature_theory
+      - literature_engineering

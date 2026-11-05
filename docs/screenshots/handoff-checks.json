@@ -1,0 +1,202 @@
+{
+  "handoffs": [
+    {
+      "request": {
+        "question": "比较 Wang 2015 与 Yang 2018：氨水平对甲烷产量有显著影响吗？请区分纯培养与中温/高温反应器的证据，并引用具体图表。",
+        "paperLimit": 3,
+        "dimensions": [
+          "TAN",
+          "FAN"
+        ],
+        "qaContext": {
+          "question": "比较 Wang 2015 与 Yang 2018：氨水平对甲烷产量有显著影响吗？请区分纯培养与中温/高温反应器的证据，并引用具体图表。",
+          "traceId": "359906ad-838c-4a2d-bbad-53bfcf9abb61",
+          "evidence": [
+            {
+              "chunkId": 691,
+              "source": "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf",
+              "collection": "literature_inhibition",
+              "page": 3
+            },
+            {
+              "chunkId": 782,
+              "source": "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf",
+              "collection": "literature_inhibition",
+              "page": 1
+            },
+            {
+              "chunkId": 800,
+              "source": "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf",
+              "collection": "literature_inhibition",
+              "page": 3
+            },
+            {
+              "chunkId": 831,
+              "source": "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf",
+              "collection": "literature_inhibition",
+              "page": 11
+            },
+            {
+              "chunkId": 689,
+              "source": "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf",
+              "collection": "literature_inhibition",
+              "page": 2
+            }
+          ]
+        }
+      },
+      "result": {
+        "question": "比较 Wang 2015 与 Yang 2018：氨水平对甲烷产量有显著影响吗？请区分纯培养与中温/高温反应器的证据，并引用具体图表。",
+        "traceId": "359906ad-838c-4a2d-bbad-53bfcf9abb61",
+        "evidence": [
+          {
+            "chunkId": 691,
+            "source": "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf",
+            "collection": "literature_inhibition",
+            "page": 3,
+            "paperId": "literature_zip:inhibition:Wang_2015_Ammonia_effect_on_hydrogenotrophic_"
+          },
+          {
+            "chunkId": 782,
+            "source": "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf",
+            "collection": "literature_inhibition",
+            "page": 1,
+            "paperId": "literature_zip:inhibition:Yang_2018_Effect_of_ammonia_on_methane_produc"
+          },
+          {
+            "chunkId": 800,
+            "source": "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf",
+            "collection": "literature_inhibition",
+            "page": 3,
+            "paperId": "literature_zip:inhibition:Yang_2018_Effect_of_ammonia_on_methane_produc"
+          },
+          {
+            "chunkId": 831,
+            "source": "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf",
+            "collection": "literature_inhibition",
+            "page": 11,
+            "paperId": "literature_zip:inhibition:Yang_2018_Effect_of_ammonia_on_methane_produc"
+          },
+          {
+            "chunkId": 689,
+            "source": "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf",
+            "collection": "literature_inhibition",
+            "page": 2,
+            "paperId": "literature_zip:inhibition:Wang_2015_Ammonia_effect_on_hydrogenotrophic_"
+          }
+        ]
+      },
+      "verifiedPaperCount": 2
+    },
+    {
+      "request": {
+        "question": "比较 Wang 2015 与 Yang 2018：氨水平对甲烷产量有显著影响吗？请区分纯培养与中温/高温反应器的证据，并引用具体图表。",
+        "paperLimit": 3,
+        "dimensions": [
+          "TAN",
+          "FAN"
+        ],
+        "qaContext": {
+          "question": "比较 Wang 2015 与 Yang 2018：氨水平对甲烷产量有显著影响吗？请区分纯培养与中温/高温反应器的证据，并引用具体图表。",
+          "traceId": "e3d03fa7-53e9-41b9-9554-f8647701c3aa",
+          "evidence": [
+            {
+              "chunkId": 691,
+              "source": "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf",
+              "collection": "literature_inhibition",
+              "page": 3
+            },
+            {
+              "chunkId": 782,
+              "source": "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf",
+              "collection": "literature_inhibition",
+              "page": 1
+            },
+            {
+              "chunkId": 800,
+              "source": "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf",
+              "collection": "literature_inhibition",
+              "page": 3
+            },
+            {
+              "chunkId": 831,
+              "source": "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf",
+              "collection": "literature_inhibition",
+              "page": 11
+            },
+            {
+              "chunkId": 689,
+              "source": "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf",
+              "collection": "literature_inhibition",
+              "page": 2
+            }
+          ]
+        }
+      },
+      "result": {
+        "question": "比较 Wang 2015 与 Yang 2018：氨水平对甲烷产量有显著影响吗？请区分纯培养与中温/高温反应器的证据，并引用具体图表。",
+        "traceId": "e3d03fa7-53e9-41b9-9554-f8647701c3aa",
+        "evidence": [
+          {
+            "chunkId": 691,
+            "source": "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf",
+            "collection": "literature_inhibition",
+            "page": 3,
+            "paperId": "literature_zip:inhibition:Wang_2015_Ammonia_effect_on_hydrogenotrophic_"
+          },
+          {
+            "chunkId": 782,
+            "source": "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf",
+            "collection": "literature_inhibition",
+            "page": 1,
+            "paperId": "literature_zip:inhibition:Yang_2018_Effect_of_ammonia_on_methane_produc"
+          },
+          {
+            "chunkId": 800,
+            "source": "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf",
+            "collection": "literature_inhibition",
+            "page": 3,
+            "paperId": "literature_zip:inhibition:Yang_2018_Effect_of_ammonia_on_methane_produc"
+          },
+          {
+            "chunkId": 831,
+            "source": "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf",
+            "collection": "literature_inhibition",
+            "page": 11,
+            "paperId": "literature_zip:inhibition:Yang_2018_Effect_of_ammonia_on_methane_produc"
+          },
+          {
+            "chunkId": 689,
+            "source": "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf",
+            "collection": "literature_inhibition",
+            "page": 2,
+            "paperId": "literature_zip:inhibition:Wang_2015_Ammonia_effect_on_hydrogenotrophic_"
+          }
+        ]
+      },
+      "verifiedPaperCount": 2
+    }
+  ],
+  "liveStreams": [
+    {
+      "traceId": "359906ad-838c-4a2d-bbad-53bfcf9abb61",
+      "runtime": {
+        "answer_mode": "model_with_references",
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "knowledge_hits": 5,
+        "qa_ready": true
+      }
+    },
+    {
+      "traceId": "e3d03fa7-53e9-41b9-9554-f8647701c3aa",
+      "runtime": {
+        "answer_mode": "model_with_references",
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "knowledge_hits": 5,
+        "qa_ready": true
+      }
+    }
+  ]
+}

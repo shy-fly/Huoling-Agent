@@ -1,0 +1,950 @@
+[
+  {
+    "caseId": "wang-zh",
+    "question": "Wang 2015 的研究中，氨水平对甲烷产量有显著影响吗？请总结实验对象、方法、结论和适用边界。",
+    "seconds": 6.44,
+    "checks": {
+      "http": true,
+      "realModel": true,
+      "validCitations": true,
+      "pdfPages": true
+    },
+    "evidenceVerification": [
+      {
+        "source": "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf",
+        "page": 3,
+        "snippetVerified": true
+      },
+      {
+        "source": "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf",
+        "page": 5,
+        "snippetVerified": true
+      },
+      {
+        "source": "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf",
+        "page": 4,
+        "snippetVerified": true
+      },
+      {
+        "source": "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf",
+        "page": 2,
+        "snippetVerified": true
+      },
+      {
+        "source": "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf",
+        "page": 7,
+        "snippetVerified": true
+      },
+      {
+        "source": "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf",
+        "page": 6,
+        "snippetVerified": true
+      },
+      {
+        "source": "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf",
+        "page": 3,
+        "snippetVerified": true
+      },
+      {
+        "source": "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf",
+        "page": 2,
+        "snippetVerified": true
+      }
+    ],
+    "response": {
+      "ok": true,
+      "answer": "### 研究结论\nWang 2015 的研究显示，氨水平对甲烷产量的影响因菌株而异，并非对所有受试产甲烷菌都显著：对 *M. congolense* 和 *M. thermautotrophicus* 产量随氨升高而下降，对 *M. bourgensis* 与 *M. thermophilus* 无显著影响（P > 0.05）[1][3]。因此\"显著影响\"只对部分菌株成立，属条件性结论；互营培养体系下抑制则更为普遍和严重[2]。\n\n### 文献证据对照\n- 纯培养批次试验：四种氢营养型产甲烷菌在相同氨梯度下培养约22–24天，*M. congolense* 与 *M. thermautotrophicus* 的甲烷产量随氨水平升高而下降，而 *M. bourgensis* 与 *M. thermophilus* 无显著差异（P > 0.05）[1]（图 1）。\n- *M. congolense* 在氨达 5 g NH4+-N L−1 时生长受显著影响（P < 0.05），产量由 83.3% 降至 76.2%（相对理论值），7 g NH4+-N L−1 时低于检出限[7]（图 1c）。\n- *M. thermophilus* 在各测试氨水平下产量均保持理论值的 90% 以上；*M. thermautotrophicus* 则由 89.7% 降至 79.1%（0.26→7 g NH4+-N L−1）[3]（图 1d）。\n- 互营培养：氨由 0.26 升至 7 g NH4+-N L−1 时，嗜热互营体系甲烷产量显著下降（P < 0.05），*M. thermophilus* + *T. phaeum* 由 56.4% 降至 0.7%，*M. thermautotrophicus* + *T. phaeum* 由 49.9% 降至 1.9%；中温互营体系在 0.26 g NH4+-N L−1 时已低于理论值 6%，更高氨水平下低于检出限[2]（图 3a、3b）。\n\n### 机理与差异解释\n作者将差异归因于菌株间固有的氨耐受性不同，并指出中温氢营养型产甲烷菌比嗜热菌更敏感，这与部分既有观点相反[5]。互营体系抑制更强，可能与伙伴菌 *T. phaeum* 的敏感性一致[2]。此处为模型推断：纯培养排除了互营代谢与传质耦合，故其\"无显著影响\"不能外推至互营或连续体系；批次与连续反应器检出抑制的浓度亦不可直接互换[4]。\n\n### 证据局限\n证据限于批次纯培养与互营培养、特定 DSMZ 菌株与测试氨梯度，统计为三平行 t 检验（P < 0.05）[1][8]；未检索到连续流验证。原文亦强调难以对氨抑制作普遍化概括[5]。本回答中\"不能外推至连续体系\"\"机理归因\"属模型推断，超出原文直接证据。",
+      "citations": [
+        "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf 第3页",
+        "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf 第5页",
+        "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf 第4页",
+        "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf 第2页",
+        "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf 第7页",
+        "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf 第6页",
+        "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf 第3页",
+        "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf 第2页"
+      ],
+      "chunks": [
+        {
+          "chunk_id": 695,
+          "title": "Wang-2015-Ammonia-effect-on-hydrogenotrophic- 第3页",
+          "source": "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf",
+          "collection": "literature_inhibition",
+          "citation": "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf 第3页",
+          "page": 3,
+          "snippet": "s (μmax) of hydrogenotrophic\nmethanogens, SAOB and syntrophic cultivation were calculated\nas the slope of the linear part of the semi-logarithmic graph of\nthe methane production (for SAOB OD600 was used) of the batch\nreactors versus time (Grayet al. 2009).\nStatistical analysis\nTheOriginprogram(OriginLabCorporation,Northampton,Mas-\nsachusetts)wasusedforstatisticalanalysis.Themaximumspe-\ncific growth rates of the pure strains cultivation and syntrophic\ncultivationexperimentswerecomparedwiththeStudent’s t-test\nfor statistically significant difference (P < 0.05) and all values\npresentedarethemeansofindependent triplicates(n =3) ±SD.\nRESULTS AND DISCUSSION\nEffect of ammonia on hydrogenotrophic methanogens\nIn general, the methane production of M. congolense and M.\nthermautotrophicus decreased with increasing ammonia levels,\nwhile the tested ammonia levels had no significant effect\n(P > 0.05) on methane production forM. bourgensis and M. ther-\nmophiles (Fig. 1). The incubation periods of hydrogenotrophic\nmethanogens were the same (about 22–24 days) for all cultiva-\ntions. Specifically, the growth ofM. congolense was significantly\n(P < 0.05) affected when ammonia reached 5 g NH4+-N L−1.T h",
+          "score": null
+        },
+        {
+          "chunk_id": 702,
+          "title": "Wang-2015-Ammonia-effect-on-hydrogenotrophic- 第5页",
+          "source": "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf",
+          "collection": "literature_inhibition",
+          "citation": "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf 第5页",
+          "page": 5,
+          "snippet": "is, Karakashev and Angelidaki (2013)w h o\nreportedthatmethanogensaremoresensitivetoammoniainhi-\nbitioncomparedtoSAOB.Thus,itseemsthattherearesomehy-\ndrogenotrophic methanogens equally or more resistant to high\nammonia levels compared to some SAOB.\nEffect of ammonia on syntrophic cultivation\nThe methane production of the syntrophically cultivated mi-\ncroorganisms at thermophilic conditions was significantly (P\n< 0.05) decreased (from 56.4% to 0.7% forM. thermophiles + T.\nphaeum and from 49.9% to 1.9% forM. thermautotrophicus + T.\nphaeum compared to theoretical methane production), when\nammonia levels increased from 0.26 to 7 g NH4+-N L−1 (Fig. 3a\nand b). Moreover, methane production of the syntrophically\ncultivated microorganisms at mesophilic conditions was very\nlow (<6% of the theoretical methane production) at 0.26 g\nNH4+-N L−1 and was below detection limit at higher ammonia\nlevels. The observed ammonia inhibition to syntrophic cultiva-\ntion (M. thermophiles + T . phaeum) was consistent with a pre-\nvious study (Kato et al. 2014). The sensitivity to ammonia of\nthermophilic syntrophic cultivation was in accordance with the\nresults for T . phaeum. The long cultivation times (>150 da",
+          "score": 0.5048
+        },
+        {
+          "chunk_id": 697,
+          "title": "Wang-2015-Ammonia-effect-on-hydrogenotrophic- 第4页",
+          "source": "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf",
+          "collection": "literature_inhibition",
+          "citation": "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf 第4页",
+          "page": 4,
+          "snippet": "4 FEMS Microbiology Ecology, 2015, Vol. 91, No. 11\nFigure 1.Accumulative methane production under different ammonia levels of (a) M. bourgensis, (b) M. thermophiles, (c) M. congolense and (d) M. thermautotrophicus.\nThe methane production for M. bourgensis was not signif-\nicantly (P > 0.05) affected by the increased ammonia levels\n(Fig. 1a). That was in agreement with previous study reporting\nthat M. bourgensis was used as a mesophilic fast growing hy-\ndrogenotrophic methanogen that can produce methane at high\nammonia levels (5 g NH4+-N L−1) for bioaugmentation in CSTR\nreactors (Fotidis et al. 2014). Therefore, M. bourgensis is robust\nto high ammonia levels. Similarly, there was no significant de-\ncrease (P > 0.05) in the methane production ofMethanoculleus\nthermophilus (methane production remained above 90% of the\ntheoretical methane production) for all ammonia levels tested\n(Fig. 1b). The methane production yield ofM. thermautotrophi-\ncus decreased from 89.7% to 79.1%, compared to the theoretical\nmethane production, alongside the increase of ammonia levels\nfrom 0.26 to 7 g NH4+-N L−1 (Fig.1d). This behaviour was similar\nto Kato, Kosaka and Watanabe (2008) study, where the growth\no",
+          "score": 0.4663
+        },
+        {
+          "chunk_id": 684,
+          "title": "Wang-2015-Ammonia-effect-on-hydrogenotrophic- 第2页",
+          "source": "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf",
+          "collection": "literature_inhibition",
+          "citation": "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf 第2页",
+          "page": 2,
+          "snippet": "2 FEMS Microbiology Ecology, 2015, Vol. 91, No. 11\nanaerobic digestion process (Angelidaki and Ahring1994). Many\ninvestigationshavebeenconductedassessingtheinhibitionlev-\nels of ammonia and/or free ammonia on anaerobic digestion\nprocess. In Sung and Liu (2003) study, total ammonia concen-\ntrations of 4.92 g NH4+-N L−1 (55◦C, pH 6.71) caused 39% reduc-\ntioninspecificmethanogenicactivityincontinuousstirredtank\nreactors (CSTR). The results of batch experiments in the same\nstudyindicatedthatammoniaconcentrationsabove4.0gNH 4+-\nNL −1 (55◦C, pH from 6.5 to 8.0) had an obvious inhibitory effect\non methanogenesis. In continuously fed biogas reactors (Angel-\nidaki and Ahring1994), inhibition occurred at 4 g NH4+-N L−1\n(free ammonia: 650 mg NH3-N L−1,5 5◦C, pH 7.7). In batch exper-\niments conducted in the same study, inhibition was detected at\n2gN H4+-N L−1 (free ammonia: 140 mg NH3-N L−1,5 5◦C, pH 7.9–\n8.0).Generally,inhibitionincontinuousreactorexperimentswill\nfirst be detected when the reduced growth rates do not permit\nthe microorganisms to stay in the reactor at specific hydraulic\nretentiontimes.Oncontrary,atbatchcultivations,thereduction\nof the growth rates or methane production rates",
+          "score": 0.4484
+        },
+        {
+          "chunk_id": 708,
+          "title": "Wang-2015-Ammonia-effect-on-hydrogenotrophic- 第7页",
+          "source": "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf",
+          "collection": "literature_inhibition",
+          "citation": "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf 第7页",
+          "page": 7,
+          "snippet": "Wang et al. 7\nhydrogenotrophic methanogens tested in the current study\nwere more sensitive to ammonia toxicity compared to ther-\nmophilichydrogenotrophic methanogens. These results oppose\nsome investigators who had suggest that, due to higher free\nammonia levels, thermophilic hydrogenotrophic methanogens\nare more vulnerable to high ammonia loads compared to\nthe mesophilic hydrogenotrophic methanogens. These con-\ntradictions highlight the fact that the complete knowledge\nof ammonia inhibition effect on SAOB and hydrogenotrophic\nmethanogens is still lacking. Nevertheless, the growth of SAOB\nwas stimulated under high ammonia levels when cultivated\nsyntrophically with hydrogenotrophic methanogens. Thus, it\nseems that hydrogenotrophic methanogens are the key players\nin the SAO pathway under high ammonia concentrations. Over-\nall, this study shown that it is difficult to make generalizations\nin respect to ammonia inhibition effect on anaerobic digestion\nmicrobes.\nFUNDING\nThis work was supported by Energinet.dk under the project\nframework ForskEL ‘MicrobStopNH3-Innovative bioaugmenta-\ntion strategies to tackle ammonia inhibition in anaerobic diges-\ntion process’ (program no. 2015–12327).",
+          "score": 0.4459
+        },
+        {
+          "chunk_id": 707,
+          "title": "Wang-2015-Ammonia-effect-on-hydrogenotrophic- 第6页",
+          "source": "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf",
+          "collection": "literature_inhibition",
+          "citation": "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf 第6页",
+          "page": 6,
+          "snippet": "6 FEMS Microbiology Ecology, 2015, Vol. 91, No. 11\nFigure 3.The methane production under different ammonia levels of syntrophically cultivated microbes: (a) M. thermophiles + T . phaeumand (b) M. thermautotrophicus\n+ T . phaeum.\nFigure4. Comparisonofthemaximumspecificgrowthratesunderdifferentammonialevelsof( a) M. thermophilesand T . Phaeum,(b) M. thermautotrophicusand T . Phaeum,\n(c) M. bourgensis and T . acetatoxydans,( d) M. congolense and T . acetatoxydans.\nFurthermore, many SAOB (C. ultunense, S. schinkii, T . acetatoxy-\ndans and T . phaeum) in CSTR of large-scale biogas plants have\nalso demonstrated tolerance to ammonia toxicity (Sun et al.\n2014). However, as we observed in this study SAOB can be more\nsensitive to ammonia compared to their hydrogenotrophic co-\npartners.\nCONCLUSIONS\nThe results of the current study indicated that some hy-\ndrogenotrophic methanogens were equally or, in some cases,\nmore tolerant to high ammonia concentrations compared to\nthe tested SAOB. Furthermore, it was found that mesophilic\nDownloaded from https://academic.oup.com/femsec/article/91/11/fiv130/2467483 by University Town Library of ShenZhen user on 04 November 2020",
+          "score": 0.4337
+        },
+        {
+          "chunk_id": 696,
+          "title": "Wang-2015-Ammonia-effect-on-hydrogenotrophic- 第3页",
+          "source": "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf",
+          "collection": "literature_inhibition",
+          "citation": "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf 第3页",
+          "page": 3,
+          "snippet": "4 days) for all cultiva-\ntions. Specifically, the growth ofM. congolense was significantly\n(P < 0.05) affected when ammonia reached 5 g NH4+-N L−1.T h e\nmethane production decreased from 83.3% to 76.2% (compared\nwith theoretical methane production) when ammonia level in-\ncreased from 3 to 5 g NH4+-N L−1. Moreover, the methane pro-\nduction was below detection limits at 7 g NH4+-N L−1 (Fig. 1c)\nandthus, M. congolensewasmoresensitivetohighammonialev-\nelscomparedtotheotherthreehydrogenotrophicmethanogens\ntested.\nDownloaded from https://academic.oup.com/femsec/article/91/11/fiv130/2467483 by University Town Library of ShenZhen user on 04 November 2020",
+          "score": 0.4089
+        },
+        {
+          "chunk_id": 689,
+          "title": "Wang-2015-Ammonia-effect-on-hydrogenotrophic- 第2页",
+          "source": "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf",
+          "collection": "literature_inhibition",
+          "citation": "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf 第2页",
+          "page": 2,
+          "snippet": "MATERIALS AND METHODS\nPure strains\nFour hydrogenotrophic methanogens (mesophilic :\nMethanoculleus bourgensis MS2 DSM No. 3045 and Methanobac-\nterium congolense C DSM No. 7095; thermophilic:Methanoculleus\nthermophilus UCLA DSM No. 2624. andMethanothermobacter ther-\nmautotrophicus Z-245 DSM No. 3720) and two SAOB (Mesophilic:\nT . acetatoxydans Re1T DSM No. 21804; thermophilic: T . phaeum\nstrain PB DSM No. 26808) were purchased from DSMZ company\n(Germany) and were used for testing their tolerance to am-\nmonia toxicity. Before the main experiments, in order to grow\nthe necessary biomass, all the pure strains were cultivated in\nthe corresponding growth media suggested by the literature\n(Ollivier et al. 1986; Maestrojuan et al. 1990; Sonne-Hansen a\ne strains were cultivated in\nthe corresponding growth media suggested by the literature\n(Ollivier et al. 1986; Maestrojuan et al. 1990; Sonne-Hansen and\nAhring 1997; Hattori et al. 2000;C u z i net al. 2001; Westerholm,\nRoos and Schn¨urer 2011). Specifically, the growth media used\nwere medium 332 for M. bourgensis , medium 119 for M. con-\ngolense, M. thermophiles and M. thermautotrophicus, medium 1301\nfor T . acetatoxydansand medium 880 forT .",
+          "score": null
+        }
+      ],
+      "trace_id": "b0b81054-9b18-4617-ba51-83fedf5426d5",
+      "agent_id": "research",
+      "runtime": {
+        "answer_mode": "model_with_references",
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "knowledge_hits": 8,
+        "qa_ready": true
+      }
+    }
+  },
+  {
+    "caseId": "wang-en",
+    "question": "In Wang 2015, did ammonia levels have a significant effect on methane production? Summarize the study organisms, methods, results and limitations in Chinese.",
+    "seconds": 5.01,
+    "checks": {
+      "http": true,
+      "realModel": true,
+      "validCitations": true,
+      "pdfPages": true
+    },
+    "evidenceVerification": [
+      {
+        "source": "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf",
+        "page": 3,
+        "snippetVerified": true
+      },
+      {
+        "source": "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf",
+        "page": 5,
+        "snippetVerified": true
+      },
+      {
+        "source": "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf",
+        "page": 2,
+        "snippetVerified": true
+      },
+      {
+        "source": "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf",
+        "page": 4,
+        "snippetVerified": true
+      },
+      {
+        "source": "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf",
+        "page": 7,
+        "snippetVerified": true
+      },
+      {
+        "source": "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf",
+        "page": 6,
+        "snippetVerified": true
+      },
+      {
+        "source": "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf",
+        "page": 5,
+        "snippetVerified": true
+      },
+      {
+        "source": "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf",
+        "page": 2,
+        "snippetVerified": true
+      }
+    ],
+    "response": {
+      "ok": true,
+      "answer": "### 研究结论\n在 Wang 2015 中，氨氮对产甲烷的影响因菌株而异，并非普遍显著：对 *M. congolense* 与 *M. thermautotrophicus* 的甲烷产量随氨氮升高而下降，而对 *M. bourgensis* 与 *M. thermophilus* 无显著影响（P > 0.05）[1][4]；互营培养在高温条件下则显著受抑 [2]。该结论属**条件性结论**，仅限该研究的批次纯培养/互营培养体系与所试氨氮范围。\n\n### 文献证据对照\n- 纯培养批次试验：四种氢营养型产甲烷菌在递增氨氮下培养，*M. congolense* 与 *M. thermautotrophicus* 甲烷产量下降，*M. bourgensis* 与 *M. thermophilus* 无显著差异（P > 0.05）；*M. congolense* 在 5 g NH4+-N L−1 时生长受显著影响（P < 0.05）[1][4]（图 1）。\n- 互营培养：氨氮由 0.26 升至 7 g NH4+-N L−1 时，高温互营体系甲烷产量显著下降（P < 0.05），*M. thermophiles* + *T. phaeum* 由 56.4% 降至 0.7%，*M. thermautotrophicus* + *T. phaeum* 由 49.9% 降至 1.9%（相对理论产甲烷量）；中温互营体系在 0.26 g NH4+-N L−1 时已低于理论值的 6%，更高氨氮下低于检出限 [2]（图 3）。\n- 作者结论：部分氢营养型产甲烷菌对高氨氮的耐受性与所试 SAOB 相当甚至更强，且难以就氨抑制作普适性概括 [5][6]。\n\n### 机理与差异解释\n原文将互营体系耐氨性提高归因于氢营养型产甲烷菌降低氢分压、从而刺激 SAOB 生长 [7]。菌株间差异（中温与高温、不同属）说明氨抑制不存在统一阈值，作者亦指出这与部分文献认为高温氢营养型产甲烷菌更敏感的观点相矛盾 [5]。此处为模型推断：差异可能源于细胞膜脂组成、能量代谢与氨转运等菌株特异性因素，原文未作机制验证。\n\n### 证据局限\n证据来自批次纯培养与互营培养，非连续反应器；统计为三次独立重复、Student's t 检验（P < 0.05）[1]。互营培养周期长（>150 天）[7]，中温互营的低产甲烷还可能源于 *T. acetatoxydans* 无法氧化乙酸 [7]，与氨抑制混淆。原文明确承认氨抑制知识仍不完整 [5]。本回答中关于膜脂与转运机制的解释属模型推断，超出原文。",
+      "citations": [
+        "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf 第3页",
+        "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf 第5页",
+        "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf 第2页",
+        "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf 第4页",
+        "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf 第7页",
+        "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf 第6页",
+        "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf 第5页",
+        "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf 第2页"
+      ],
+      "chunks": [
+        {
+          "chunk_id": 695,
+          "title": "Wang-2015-Ammonia-effect-on-hydrogenotrophic- 第3页",
+          "source": "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf",
+          "collection": "literature_inhibition",
+          "citation": "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf 第3页",
+          "page": 3,
+          "snippet": "s (μmax) of hydrogenotrophic\nmethanogens, SAOB and syntrophic cultivation were calculated\nas the slope of the linear part of the semi-logarithmic graph of\nthe methane production (for SAOB OD600 was used) of the batch\nreactors versus time (Grayet al. 2009).\nStatistical analysis\nTheOriginprogram(OriginLabCorporation,Northampton,Mas-\nsachusetts)wasusedforstatisticalanalysis.Themaximumspe-\ncific growth rates of the pure strains cultivation and syntrophic\ncultivationexperimentswerecomparedwiththeStudent’s t-test\nfor statistically significant difference (P < 0.05) and all values\npresentedarethemeansofindependent triplicates(n =3) ±SD.\nRESULTS AND DISCUSSION\nEffect of ammonia on hydrogenotrophic methanogens\nIn general, the methane production of M. congolense and M.\nthermautotrophicus decreased with increasing ammonia levels,\nwhile the tested ammonia levels had no significant effect\n(P > 0.05) on methane production forM. bourgensis and M. ther-\nmophiles (Fig. 1). The incubation periods of hydrogenotrophic\nmethanogens were the same (about 22–24 days) for all cultiva-\ntions. Specifically, the growth ofM. congolense was significantly\n(P < 0.05) affected when ammonia reached 5 g NH4+-N L−1.T h",
+          "score": null
+        },
+        {
+          "chunk_id": 702,
+          "title": "Wang-2015-Ammonia-effect-on-hydrogenotrophic- 第5页",
+          "source": "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf",
+          "collection": "literature_inhibition",
+          "citation": "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf 第5页",
+          "page": 5,
+          "snippet": "is, Karakashev and Angelidaki (2013)w h o\nreportedthatmethanogensaremoresensitivetoammoniainhi-\nbitioncomparedtoSAOB.Thus,itseemsthattherearesomehy-\ndrogenotrophic methanogens equally or more resistant to high\nammonia levels compared to some SAOB.\nEffect of ammonia on syntrophic cultivation\nThe methane production of the syntrophically cultivated mi-\ncroorganisms at thermophilic conditions was significantly (P\n< 0.05) decreased (from 56.4% to 0.7% forM. thermophiles + T.\nphaeum and from 49.9% to 1.9% forM. thermautotrophicus + T.\nphaeum compared to theoretical methane production), when\nammonia levels increased from 0.26 to 7 g NH4+-N L−1 (Fig. 3a\nand b). Moreover, methane production of the syntrophically\ncultivated microorganisms at mesophilic conditions was very\nlow (<6% of the theoretical methane production) at 0.26 g\nNH4+-N L−1 and was below detection limit at higher ammonia\nlevels. The observed ammonia inhibition to syntrophic cultiva-\ntion (M. thermophiles + T . phaeum) was consistent with a pre-\nvious study (Kato et al. 2014). The sensitivity to ammonia of\nthermophilic syntrophic cultivation was in accordance with the\nresults for T . phaeum. The long cultivation times (>150 da",
+          "score": 0.4863
+        },
+        {
+          "chunk_id": 684,
+          "title": "Wang-2015-Ammonia-effect-on-hydrogenotrophic- 第2页",
+          "source": "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf",
+          "collection": "literature_inhibition",
+          "citation": "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf 第2页",
+          "page": 2,
+          "snippet": "2 FEMS Microbiology Ecology, 2015, Vol. 91, No. 11\nanaerobic digestion process (Angelidaki and Ahring1994). Many\ninvestigationshavebeenconductedassessingtheinhibitionlev-\nels of ammonia and/or free ammonia on anaerobic digestion\nprocess. In Sung and Liu (2003) study, total ammonia concen-\ntrations of 4.92 g NH4+-N L−1 (55◦C, pH 6.71) caused 39% reduc-\ntioninspecificmethanogenicactivityincontinuousstirredtank\nreactors (CSTR). The results of batch experiments in the same\nstudyindicatedthatammoniaconcentrationsabove4.0gNH 4+-\nNL −1 (55◦C, pH from 6.5 to 8.0) had an obvious inhibitory effect\non methanogenesis. In continuously fed biogas reactors (Angel-\nidaki and Ahring1994), inhibition occurred at 4 g NH4+-N L−1\n(free ammonia: 650 mg NH3-N L−1,5 5◦C, pH 7.7). In batch exper-\niments conducted in the same study, inhibition was detected at\n2gN H4+-N L−1 (free ammonia: 140 mg NH3-N L−1,5 5◦C, pH 7.9–\n8.0).Generally,inhibitionincontinuousreactorexperimentswill\nfirst be detected when the reduced growth rates do not permit\nthe microorganisms to stay in the reactor at specific hydraulic\nretentiontimes.Oncontrary,atbatchcultivations,thereduction\nof the growth rates or methane production rates",
+          "score": 0.4368
+        },
+        {
+          "chunk_id": 697,
+          "title": "Wang-2015-Ammonia-effect-on-hydrogenotrophic- 第4页",
+          "source": "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf",
+          "collection": "literature_inhibition",
+          "citation": "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf 第4页",
+          "page": 4,
+          "snippet": "4 FEMS Microbiology Ecology, 2015, Vol. 91, No. 11\nFigure 1.Accumulative methane production under different ammonia levels of (a) M. bourgensis, (b) M. thermophiles, (c) M. congolense and (d) M. thermautotrophicus.\nThe methane production for M. bourgensis was not signif-\nicantly (P > 0.05) affected by the increased ammonia levels\n(Fig. 1a). That was in agreement with previous study reporting\nthat M. bourgensis was used as a mesophilic fast growing hy-\ndrogenotrophic methanogen that can produce methane at high\nammonia levels (5 g NH4+-N L−1) for bioaugmentation in CSTR\nreactors (Fotidis et al. 2014). Therefore, M. bourgensis is robust\nto high ammonia levels. Similarly, there was no significant de-\ncrease (P > 0.05) in the methane production ofMethanoculleus\nthermophilus (methane production remained above 90% of the\ntheoretical methane production) for all ammonia levels tested\n(Fig. 1b). The methane production yield ofM. thermautotrophi-\ncus decreased from 89.7% to 79.1%, compared to the theoretical\nmethane production, alongside the increase of ammonia levels\nfrom 0.26 to 7 g NH4+-N L−1 (Fig.1d). This behaviour was similar\nto Kato, Kosaka and Watanabe (2008) study, where the growth\no",
+          "score": 0.4045
+        },
+        {
+          "chunk_id": 708,
+          "title": "Wang-2015-Ammonia-effect-on-hydrogenotrophic- 第7页",
+          "source": "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf",
+          "collection": "literature_inhibition",
+          "citation": "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf 第7页",
+          "page": 7,
+          "snippet": "Wang et al. 7\nhydrogenotrophic methanogens tested in the current study\nwere more sensitive to ammonia toxicity compared to ther-\nmophilichydrogenotrophic methanogens. These results oppose\nsome investigators who had suggest that, due to higher free\nammonia levels, thermophilic hydrogenotrophic methanogens\nare more vulnerable to high ammonia loads compared to\nthe mesophilic hydrogenotrophic methanogens. These con-\ntradictions highlight the fact that the complete knowledge\nof ammonia inhibition effect on SAOB and hydrogenotrophic\nmethanogens is still lacking. Nevertheless, the growth of SAOB\nwas stimulated under high ammonia levels when cultivated\nsyntrophically with hydrogenotrophic methanogens. Thus, it\nseems that hydrogenotrophic methanogens are the key players\nin the SAO pathway under high ammonia concentrations. Over-\nall, this study shown that it is difficult to make generalizations\nin respect to ammonia inhibition effect on anaerobic digestion\nmicrobes.\nFUNDING\nThis work was supported by Energinet.dk under the project\nframework ForskEL ‘MicrobStopNH3-Innovative bioaugmenta-\ntion strategies to tackle ammonia inhibition in anaerobic diges-\ntion process’ (program no. 2015–12327).",
+          "score": 0.3876
+        },
+        {
+          "chunk_id": 707,
+          "title": "Wang-2015-Ammonia-effect-on-hydrogenotrophic- 第6页",
+          "source": "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf",
+          "collection": "literature_inhibition",
+          "citation": "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf 第6页",
+          "page": 6,
+          "snippet": "6 FEMS Microbiology Ecology, 2015, Vol. 91, No. 11\nFigure 3.The methane production under different ammonia levels of syntrophically cultivated microbes: (a) M. thermophiles + T . phaeumand (b) M. thermautotrophicus\n+ T . phaeum.\nFigure4. Comparisonofthemaximumspecificgrowthratesunderdifferentammonialevelsof( a) M. thermophilesand T . Phaeum,(b) M. thermautotrophicusand T . Phaeum,\n(c) M. bourgensis and T . acetatoxydans,( d) M. congolense and T . acetatoxydans.\nFurthermore, many SAOB (C. ultunense, S. schinkii, T . acetatoxy-\ndans and T . phaeum) in CSTR of large-scale biogas plants have\nalso demonstrated tolerance to ammonia toxicity (Sun et al.\n2014). However, as we observed in this study SAOB can be more\nsensitive to ammonia compared to their hydrogenotrophic co-\npartners.\nCONCLUSIONS\nThe results of the current study indicated that some hy-\ndrogenotrophic methanogens were equally or, in some cases,\nmore tolerant to high ammonia concentrations compared to\nthe tested SAOB. Furthermore, it was found that mesophilic\nDownloaded from https://academic.oup.com/femsec/article/91/11/fiv130/2467483 by University Town Library of ShenZhen user on 04 November 2020",
+          "score": 0.3776
+        },
+        {
+          "chunk_id": 703,
+          "title": "Wang-2015-Ammonia-effect-on-hydrogenotrophic- 第5页",
+          "source": "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf",
+          "collection": "literature_inhibition",
+          "citation": "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf 第5页",
+          "page": 5,
+          "snippet": "e sensitivity to ammonia of\nthermophilic syntrophic cultivation was in accordance with the\nresults for T . phaeum. The long cultivation times (>150 days\nfor syntrophic cultivation and >120 days for T . phaeum)i n d i -\ncated that T . phaeumwas the most sensitive to ammonia part-\nner,ofthesyntrophiccoculture.Thelowmethaneproductionof\nsyntrophiccultivationmicroorganismsatmesophilicconditions\ncould be explained by the inability of theT . acetatoxydansto ox-\nidize acetate when syntrophically cultivated withM. bourgensis,\nwhich was consistent with a previous study (Westerholm, Roos\nand Schn¨urer 2011). One interesting finding is that there was\nmethane production detected at 5 and 7 g NH4+-N L−1 (Fig. 3a\nandb)whiletheOD 600 of T . phaeumwasbelowdetectionlimitsat\nthesameammonialevel(Fig. 2b).Itseemsthatbysyntrophically\ncultivatingwithhydrogenotrophicmethanogens,theoveralltol-\nerance of the SAO consortium to ammonia can be improved.\nA possible explanation for this might be that the syntrophic-\ncultivated hydrogenotrophic methanogens are reducing hydro-\ngen partial pressure, so the growth of SAOB was stimulated.\nThus,theresultsindicatedthathydrogenotrophicmethanogens\nseem to be the crucial",
+          "score": 0.3731
+        },
+        {
+          "chunk_id": 689,
+          "title": "Wang-2015-Ammonia-effect-on-hydrogenotrophic- 第2页",
+          "source": "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf",
+          "collection": "literature_inhibition",
+          "citation": "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf 第2页",
+          "page": 2,
+          "snippet": "MATERIALS AND METHODS\nPure strains\nFour hydrogenotrophic methanogens (mesophilic :\nMethanoculleus bourgensis MS2 DSM No. 3045 and Methanobac-\nterium congolense C DSM No. 7095; thermophilic:Methanoculleus\nthermophilus UCLA DSM No. 2624. andMethanothermobacter ther-\nmautotrophicus Z-245 DSM No. 3720) and two SAOB (Mesophilic:\nT . acetatoxydans Re1T DSM No. 21804; thermophilic: T . phaeum\nstrain PB DSM No. 26808) were purchased from DSMZ company\n(Germany) and were used for testing their tolerance to am-\nmonia toxicity. Before the main experiments, in order to grow\nthe necessary biomass, all the pure strains were cultivated in\nthe corresponding growth media suggested by the literature\n(Ollivier et al. 1986; Maestrojuan et al. 1990; Sonne-Hansen a\ne strains were cultivated in\nthe corresponding growth media suggested by the literature\n(Ollivier et al. 1986; Maestrojuan et al. 1990; Sonne-Hansen and\nAhring 1997; Hattori et al. 2000;C u z i net al. 2001; Westerholm,\nRoos and Schn¨urer 2011). Specifically, the growth media used\nwere medium 332 for M. bourgensis , medium 119 for M. con-\ngolense, M. thermophiles and M. thermautotrophicus, medium 1301\nfor T . acetatoxydansand medium 880 forT .",
+          "score": null
+        }
+      ],
+      "trace_id": "fa744d1d-619d-42f3-817e-a803ad5fc484",
+      "agent_id": "research",
+      "runtime": {
+        "answer_mode": "model_with_references",
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "knowledge_hits": 8,
+        "qa_ready": true
+      }
+    }
+  },
+  {
+    "caseId": "yang-zh",
+    "question": "Yang 2018 的研究怎样比较中温和高温厌氧消化？游离氨 FAN 与总氨氮 TAN 有何区别，表1的浓度能否直接视为抑制阈值？",
+    "seconds": 5.45,
+    "checks": {
+      "http": true,
+      "realModel": true,
+      "validCitations": true,
+      "pdfPages": true
+    },
+    "evidenceVerification": [
+      {
+        "source": "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf",
+        "page": 4,
+        "snippetVerified": true
+      },
+      {
+        "source": "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf",
+        "page": 10,
+        "snippetVerified": true
+      },
+      {
+        "source": "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf",
+        "page": 3,
+        "snippetVerified": true
+      },
+      {
+        "source": "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf",
+        "page": 1,
+        "snippetVerified": true
+      },
+      {
+        "source": "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf",
+        "page": 10,
+        "snippetVerified": true
+      },
+      {
+        "source": "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf",
+        "page": 1,
+        "snippetVerified": true
+      },
+      {
+        "source": "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf",
+        "page": 11,
+        "snippetVerified": true
+      },
+      {
+        "source": "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf",
+        "page": 2,
+        "snippetVerified": true
+      }
+    ],
+    "response": {
+      "ok": true,
+      "answer": "### 研究结论\nYang 2018 以中温（37 ℃）与高温（55 ℃）两组 CSTR 平行递增氨氮，比较产甲烷性能、降解性能、产甲烷途径与微生物群落；其核心差异是中温下 MP 抑制起始于 TAN 2 g NH₄⁺-N/L，高温下起始于 5 g NH₄⁺-N/L，且中温出现 IC50 而高温在实验范围内未出现 [1][3][4]（表 1）。FAN 是 NH₃-N 形态、TAN 是总氨氮，二者不可互换；表 1 的 TAN/FAN 是各阶段实测暴露浓度，不能直接当作抑制阈值（条件性结论）。\n\n### 文献证据对照\n- 作者自身实验：中温 MP 抑制自 TAN 2 g NH₄⁺-N/L 开始，高温自 5 g NH₄⁺-N/L 开始；中温 TAN>4 g NH₄⁺-N/L 出现 IC50，高温在实验范围内未出现 [1][3]（表 1）。\n- 表 1 给出各阶段 TAN（0.21–7 g/L 中温；0.39–7 g/L 高温）与对应 FAN（3.36–293.29 mg/L；15.30–426.14 mg/L），并列出 MP 与 BD [1]（表 1）。\n- 途径与群落：中温未见明显途径转变，高温 NH₄⁺-N>5 g/L 时由乙酸营养型转向复合/灵活途径、氢营养型富集；中温 Methanosaeta 减少，高温 Methanosaeta 消失而 Methanosarcina 增殖 [2][6]。\n- 引言二手转述：FA 抑制阈值随中温→高温由 0.22 升至 0.69 g NH₃-N/L；TAN 阈值中温 4.1 g/L、高温 5.77 g/L（转引自本轮 [1]）。\n\n### 机理与差异解释\nFAN 与 TAN 的区分在于：FAN 为未电离 NH₃ 形态，随 pH、温度升高而占比增大，常被视为直接抑制形态；TAN 为两者之和，是暴露量而非抑制强度指标（此处为模型推断）。因此同一 TAN 下高温 FAN 更高，但高温产甲烷菌耐受性更强，故阈值反而更高 [1][3]。文献间阈值差异可能源于接种物来源、基质、体系与响应终点不同（此处为模型推断）；表 1 浓度是暴露水平，阈值须由同一实验的响应终点（如 IC50、20% 损失）界定 [1][4]。\n\n### 证据局限\n本研究为葡萄糖+NH₄Cl 配水的实验室 CSTR（OLR 1 g glucose/L/d、HRT 10 d），非实际废物基质，结论外推受限 [8]。重复与统计细节本轮资料未完整呈现，属未确定项。FAN 随 pH/温度变化的定量关系及“FAN 为直接抑制形态”的机理解释超出原文，属模型推断；表 1 数值不得直接等同于抑制阈值。",
+      "citations": [
+        "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf 第4页",
+        "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf 第10页",
+        "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf 第3页",
+        "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf 第1页",
+        "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf 第10页",
+        "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf 第1页",
+        "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf 第11页",
+        "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf 第2页"
+      ],
+      "chunks": [
+        {
+          "chunk_id": 801,
+          "title": "Yang-2018-Effect-of-ammonia-on-methane-produc 第4页",
+          "source": "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf",
+          "collection": "literature_inhibition",
+          "citation": "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf 第4页",
+          "page": 4,
+          "snippet": "previous study, which demonstrated different toleration of\nmethanogens under different temperatures; the inhibition\nthreshold of FA with the temperature change from mesophilic to\nthermophilic increased from 0.22 g NH 3-N/L to 0.69 g NH 3-N/L\n[25]. Higher ammonia inhibition threshold is reported that\nammonia inhibition is caused by TAN with 4.1 g/L under meso-\nphilic condition [ 33] and 5.77 g/L under thermophilic condition\n[34]. In this research, a 50% inhibition (IC 50) of MP occurred with\nTAN higher than 4 g NH 4þ-N/L under mesophilic condition but did\nnot occur within experimental range under thermophilic\ncondition ( Table 1 ).\n3.2. Effect of different ammonia concentrations on degradation\nperformance\nThe glucose concentration in the ef ﬂuent of the two reactors\nwas nearly zero throughout the experimental period, thereby\nindicating full conversion of the substrate. The pH of the two\nFig. 1. Methane production (a) and TVFA concentration (b) in different phases.\nTable 1\nMethane production, biodegradability, TAN, and FAN concentration in different phases.\nPhase 0 Phase 1 Phase 2 Phase 3 Phase 4 Phase 5 Phase 6 Phase 7\nMesophilic M0 M1 M2 M3 M4 M5 M6 M7\nMP (mL/d) 1716 ± 162 1693 ± 6",
+          "score": 1.0
+        },
+        {
+          "chunk_id": 823,
+          "title": "Yang-2018-Effect-of-ammonia-on-methane-produc 第10页",
+          "source": "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf",
+          "collection": "literature_inhibition",
+          "citation": "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf 第10页",
+          "page": 10,
+          "snippet": "mesophilic reactor, while a clear shift from ace-\nticlastic to hydrogenotrophic pathway was detected in the ther-\nmophilic reactor by isotopic analysis. 16S rRNA analysis showed\nthat the abundance of hydrogenotrophic methanogen, Meth-\nanobacterium and Methanoculleus, were enriched with the NH 4þ-N\nconcentration increasing, while aceticlastic methanogen Meth-\nanosaeta was reduced in the mesophilic reactor; Methanosaeta\ndisappeared, while Methanosarcina multiplied in the thermophilic\nreactor.\nAcknowledgements\nThis research was supported by National Science Foundation of\nChina (51508015) and Fundamental Research Funds for the Central\nUniversities (buctrc201505, ZY1510).\nAbbreviations\nVFA volatile fatty acid\nTVFA total volatile fatty acid\nAD anaerobic digestion\nMP methane production; SAO: syntrophic acetate oxidation\nSAOB syntrophic acetate oxidation bacteria; ac: carbon\nisotope fractionations\nBA basal anaerobic; CSTR: continuous stirred tank reactor;\nOLR: organic loading rate; HRT: hydraulic retention\ntimes; COD: chemical oxygen demand;\nANOVA an analysis of variance; BD: biodegradability; TAN: total\nammonia\nFA free ammonia; IC 50: 50% inhibition; CCA: canonical\ncorrelation analysis\nR",
+          "score": 0.5135
+        },
+        {
+          "chunk_id": 800,
+          "title": "Yang-2018-Effect-of-ammonia-on-methane-produc 第3页",
+          "source": "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf",
+          "collection": "literature_inhibition",
+          "citation": "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf 第3页",
+          "page": 3,
+          "snippet": "der ther-\nmophilic conditions with or without high ammonia level and the\nthermophilic methanogens may be more tolerable to FA than\nmesophilic methanogens. In this research, MP inhibition started\nfrom the TAN of 2 and 5 g NH 4þ-N/L under mesophilic and ther-\nmophilic conditions, correspondingly. This result is similar to a\nZ. Yang et al. / Renewable Energy 125 (2018) 915 e925 917",
+          "score": 0.4764
+        },
+        {
+          "chunk_id": 782,
+          "title": "Yang-2018-Effect-of-ammonia-on-methane-produc 第1页",
+          "source": "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf",
+          "collection": "literature_inhibition",
+          "citation": "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf 第1页",
+          "page": 1,
+          "snippet": "Effect of ammonia on methane production, methanogenesis pathway,\nmicrobial community and reactor performance under mesophilic and\nthermophilic conditions\nZiyi Yang a, Wen Wang a, *, Yanfeng He a, Ruihong Zhang b, Guangqing Liu a\na Biomass Energy and Environmental Engineering Research Center, Beijing University of Chemical Technology, Beijing 100029, China\nb Department of Biological & Agricultural Engineering, University of California, Davis, CA95616, USA\narticle info\nArticle history:\nReceived 15 October 2017\nReceived in revised form\n28 January 2018\nAccepted 13 March 2018\nAvailable online 13 March 2018\nKeywords:\nAnaerobic digestion\nAmmonia\nMethanogenesis pathway\nMesophilic\nThermophilic\nabstract\nThe effects of ammonia on methane production, methanogenesis pathway, microbial community, and\nreactor performance were investigated in this study. More than 20% of methane production loss was\nobserved in mesophilic and thermophilic reactors when the ammonia level exceeded 2 and 5 g NH 4þ-N/L,\nrespectively. The volatile fatty acid (VFA) data indicated that acetogenesis and methanogenesis are\nstrongly in ﬂuenced by ammonia inhibition under the mesophilic condition, while methanogenesis was\nmai",
+          "score": 0.476
+        },
+        {
+          "chunk_id": 827,
+          "title": "Yang-2018-Effect-of-ammonia-on-methane-produc 第10页",
+          "source": "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf",
+          "collection": "literature_inhibition",
+          "citation": "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf 第10页",
+          "page": 10,
+          "snippet": ") 38 e48.\n[17] I. Angelidaki, B.K. Ahring, Thermophilic anaerobic digestion of livestock\nwaste: the effect of ammonia, Appl. Microbiol. Biot. 38 (1993) 560 e564.\n[18] I.W. Koster, L. Gatze, The in ﬂuence of ammoniumnitrogen on the speci ﬁc\nactivity of pelletized methanogenic sludge, Agric. Wastes 9 (1984) 205 e216.\n[19] W.M. Wiegant, G. Zeeman, The mechanism of ammonia inhibition in the\nthermophilic digestion of livestock wastes, Agric. Wastes 16 (1986) 243 e253.\n[20] F. Gelman, R. Binstock, Natural attenuation of MTBE and BTEX compounds in a\npetroleum contaminated shallow coastal aquifer, Environ. Chem. Lett. 6\n(2008) 259 e262.\n[21] K.L. Londry, K.G. Dawson, H.D. Grover, R.E. Summons, A.S. Bradley, Stable\ncarbon isotope fractionation between substrates and products of Meth-\nanosarcina barkeri, Org. Geochem 39 (2008) 608 e621.\n[22] X.L. Shen, Z.M. Xu, X.C. Zhang, F.X. Yang, Stable carbon isotope fractionation\nduring the biodegradation of lambda-cyhalothrin, Sci. Total Environ. 532\n(2015) 415 e419.\n[23] N. Sinha, T.A. Kral, Stable carbon isotope fractionation by methanogens\ngrowing on different Mars regolith analogs, Planet Space Sci. 112 (2015)\n35e41.\n[24] H. Wang, I.A. Fotidis, I.",
+          "score": 0.4453
+        },
+        {
+          "chunk_id": 783,
+          "title": "Yang-2018-Effect-of-ammonia-on-methane-produc 第1页",
+          "source": "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf",
+          "collection": "literature_inhibition",
+          "citation": "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf 第1页",
+          "page": 1,
+          "snippet": "icated that acetogenesis and methanogenesis are\nstrongly in ﬂuenced by ammonia inhibition under the mesophilic condition, while methanogenesis was\nmainly affected under thermophilic condition. No evident methanogenesis pathway shift was found\nin the mesophilic reactor, whereas the increase in NH 4þ-N concentration to more than 5 g/L led to a\nclear shift from aceticlastic to complex and ﬂexible pathways, thereby signi ﬁcantly enriching the\nhydrogenotrophic pathway in the thermophilic reactor. The function and response of the microbial\ncommunity to ammonia inhibition were consistent despite the difference in population and diversity\nunder mesophilic and thermophilic conditions.\n© 2018 Elsevier Ltd. All rights reserved.\n1. Introduction\nAnaerobic digestion (AD) has gained considerable importance in\nrecent years because biogas, a form of renewable energy, can be\nproduced through biological treatment of waste and wastewater to\nachieve waste control and energy recovery [1,2]. Speciﬁcally, the AD\nis a four-step process consisting of hydrolysis, acidogenesis, ace-\ntogenesis, and methanogenesis [ 3]. Many environmental factors\ninﬂuence the AD [ 4,5], and ammonia toxicity is one of the most\ns",
+          "score": 0.4283
+        },
+        {
+          "chunk_id": 833,
+          "title": "Yang-2018-Effect-of-ammonia-on-methane-produc 第11页",
+          "source": "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf",
+          "collection": "literature_inhibition",
+          "citation": "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf 第11页",
+          "page": 11,
+          "snippet": "c liquid, Int. J. Hydrogen Energ 33 (2008)\n5161e5168.\n[46] Simon Poirier, C /C19eline Madigou, Th /C19eodore Bouchez, O. Chapleur, Improving\nanaerobic digestion with support media: mitigation of ammonia inhibition\nand effect on microbial communities, Bioresour. Technol. 235 (2017)\n229e239.\n[47] H. Wang, Y.F. Zhang, I. Angelidaki, Ammonia inhibition on hydrogen enriched\nanaerobic digestion of manure under mesophilic and thermophilic conditions,\nWater Res. 105 (2016) 314 e319.\n[48] X. Shi, J. Lin, J. Zuo, P. Li, X. Li, X. Guo, Effects of free ammonia on volatile fatty\nacid accumulation and process performance in the anaerobic digestion of two\ntypical bio-wastes, J. Environ. Sci. 55 (2017) 49 e57.\n[49] C. Sun, W.X. Cao, C.J. Banks, S. Heaven, R.H. Liu, Biogas production from un-\ndiluted chicken manure and maize silage: a study of ammonia inhibition in\nhigh solids anaerobic digestion, Bioresour. Technol. 218 (2016) 1215 e1223.\n[50] C.S. Sheik, T.W. Mitchell, F.Z. Rizvi, Y. Rehman, M. Faisal, S. Hasnain,\nM.J. McInerney, L.R. Krumholz, Exposure of soil microbial communities to\nchromium and arsenic alters their diversity and structure, PLoS One 7 (2012),\ne40059.\n[51] C.J.F.T. Braak, Canon",
+          "score": 0.4246
+        },
+        {
+          "chunk_id": 789,
+          "title": "Yang-2018-Effect-of-ammonia-on-methane-produc 第2页",
+          "source": "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf",
+          "collection": "literature_inhibition",
+          "citation": "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf 第2页",
+          "page": 2,
+          "snippet": "2. Materials and methods\n2.1. Inocula and feedstock\nSewage sludge derived from a mesophilic sewage treatment\nplant in Beijing, China was used as the inoculum for mesophilic\nreactors. Thermophilic-digested s\nge sludge derived from a mesophilic sewage treatment\nplant in Beijing, China was used as the inoculum for mesophilic\nreactors. Thermophilic-digested sludge obtained from a continu-\nously stirred tank reactor in Jiangsu province, China was used as the\ninoculum for thermophilic reactors. Basal anaerobic (BA) medium\n[26] was used as feedstock for the experiments, with glucose and\nNH4Cl as carbon and ammonium nitrogen source, respectively.\n2.2. Experimental design and procedure\nThe experiment was carried out in mesophilic (37 /C14C) and\nthermophilic (55 /C14C) continuous stirred tank reactor (CSTR) fer-\nmenters. The total and working volume of the fermenters were 6L\nand 5L, respectively. The organic loading rate (OLR) in each reactor\nwas set as 1 g glucose/L/d and hydraulic retention times (HRT) of 10\ndays. Mesophilic and thermophilic fermenters were start-up\nwithout any kind of ammonia nitrogen addition and the total\nammonia was tested of 0.21 g NH 3-N/L and 0.39 g NH 3-N/L\nrespect",
+          "score": null
+        }
+      ],
+      "trace_id": "1aa0ceb0-8bc1-4588-9f57-ad72e1453159",
+      "agent_id": "research",
+      "runtime": {
+        "answer_mode": "model_with_references",
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "knowledge_hits": 8,
+        "qa_ready": true
+      }
+    }
+  },
+  {
+    "caseId": "yang-en",
+    "question": "How did Yang 2018 compare mesophilic and thermophilic anaerobic digestion? Distinguish free ammonia nitrogen (FAN) from total ammonia nitrogen (TAN). Are Table 1 concentrations inhibition thresholds? Summarize in Chinese.",
+    "seconds": 5.52,
+    "checks": {
+      "http": true,
+      "realModel": true,
+      "validCitations": true,
+      "pdfPages": true
+    },
+    "evidenceVerification": [
+      {
+        "source": "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf",
+        "page": 4,
+        "snippetVerified": true
+      },
+      {
+        "source": "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf",
+        "page": 10,
+        "snippetVerified": true
+      },
+      {
+        "source": "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf",
+        "page": 3,
+        "snippetVerified": true
+      },
+      {
+        "source": "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf",
+        "page": 1,
+        "snippetVerified": true
+      },
+      {
+        "source": "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf",
+        "page": 1,
+        "snippetVerified": true
+      },
+      {
+        "source": "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf",
+        "page": 5,
+        "snippetVerified": true
+      },
+      {
+        "source": "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf",
+        "page": 3,
+        "snippetVerified": true
+      },
+      {
+        "source": "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf",
+        "page": 2,
+        "snippetVerified": true
+      }
+    ],
+    "response": {
+      "ok": true,
+      "answer": "### 研究结论\nYang 2018 在 37 ℃ 与 55 ℃ 的 CSTR 中同步提升氨氮负荷，发现中温条件在 TAN 2 g NH₄⁺-N/L 即出现甲烷产量抑制，而高温条件在 TAN 5 g NH₄⁺-N/L 才出现，高温产甲烷菌对氨的耐受性更强（条件性结论，限于该研究单一基质与连续体系）[3][4]。FAN 与 TAN 是两个不同量：TAN 为总氨氮，FAN 为游离氨，同一 TAN 下高温反应器 FAN 更高，但产甲烷表现仍更优 [1][7]。表 1 给出的是各阶段实测 TAN/FAN 与产甲烷响应，不是预先设定的抑制阈值 [1]。\n\n### 文献证据对照\n- 作者自身实验：中温与高温 CSTR（37/55 ℃，OLR 1 g glucose/L/d，HRT 10 d），TAN 由 1 递增至 7 g NH₄⁺-N/L，分阶段 M0–M7、T0–T7 [8]。\n- 响应终点：TAN 超过 2 与 5 g NH₄⁺-N/L 时，中温与高温反应器甲烷产量损失均超过 20% [4]；中温 IC50 出现在 TAN 高于 4 g NH₄⁺-N/L，高温在实验范围内未出现 IC50 [1]（表 1）。\n- 表 1 数值：中温 M0–M7 的 TAN 0.21–7 g/L、FAN 3.36–293.29 mg/L；高温 T0–T7 的 TAN 0.39–7 g/L、FAN 15.30–426.14 mg/L [1]（表 1）。\n- 二手转述：引言称 FA 抑制阈值随中温转高温由 0.22 升至 0.69 g NH₃-N/L，TAN 阈值 4.1 与 5.77 g/L，均转引自本轮 [1]。\n\n### 机理与差异解释\nFAN 由 TAN、pH 与温度共同决定，高温下解离平衡移动使 FAN 占比升高，故相同 TAN 时高温 FAN 更高 [1][7]；但高温产甲烷菌对 FAN 更耐受，表现为更高 FAN 下仍维持较高 MP [7]。中温下氨抑制同时影响产酸与产甲烷，高温下主要作用于产甲烷，且高温出现乙酸营养型向氢营养型路径转变 [5][6]。此处为模型推断：FAN 与 TAN 的抑制贡献无法由表 1 单独拆分，需 pH 与响应终点联合证据。\n\n### 证据局限\n实验为单一天然糖基质连续 CSTR，未检索到重复数与统计检验细节，属未确定项。表 1 为阶段性实测浓度与响应，不能等同于阈值测定；引言中的阈值来自二手转述，条件与本实验不完全一致。本回答中关于 FAN/TAN 贡献拆分的表述属模型推断，超出原文。",
+      "citations": [
+        "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf 第4页",
+        "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf 第10页",
+        "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf 第3页",
+        "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf 第1页",
+        "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf 第1页",
+        "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf 第5页",
+        "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf 第3页",
+        "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf 第2页"
+      ],
+      "chunks": [
+        {
+          "chunk_id": 801,
+          "title": "Yang-2018-Effect-of-ammonia-on-methane-produc 第4页",
+          "source": "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf",
+          "collection": "literature_inhibition",
+          "citation": "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf 第4页",
+          "page": 4,
+          "snippet": "previous study, which demonstrated different toleration of\nmethanogens under different temperatures; the inhibition\nthreshold of FA with the temperature change from mesophilic to\nthermophilic increased from 0.22 g NH 3-N/L to 0.69 g NH 3-N/L\n[25]. Higher ammonia inhibition threshold is reported that\nammonia inhibition is caused by TAN with 4.1 g/L under meso-\nphilic condition [ 33] and 5.77 g/L under thermophilic condition\n[34]. In this research, a 50% inhibition (IC 50) of MP occurred with\nTAN higher than 4 g NH 4þ-N/L under mesophilic condition but did\nnot occur within experimental range under thermophilic\ncondition ( Table 1 ).\n3.2. Effect of different ammonia concentrations on degradation\nperformance\nThe glucose concentration in the ef ﬂuent of the two reactors\nwas nearly zero throughout the experimental period, thereby\nindicating full conversion of the substrate. The pH of the two\nFig. 1. Methane production (a) and TVFA concentration (b) in different phases.\nTable 1\nMethane production, biodegradability, TAN, and FAN concentration in different phases.\nPhase 0 Phase 1 Phase 2 Phase 3 Phase 4 Phase 5 Phase 6 Phase 7\nMesophilic M0 M1 M2 M3 M4 M5 M6 M7\nMP (mL/d) 1716 ± 162 1693 ± 6",
+          "score": 1.0
+        },
+        {
+          "chunk_id": 823,
+          "title": "Yang-2018-Effect-of-ammonia-on-methane-produc 第10页",
+          "source": "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf",
+          "collection": "literature_inhibition",
+          "citation": "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf 第10页",
+          "page": 10,
+          "snippet": "mesophilic reactor, while a clear shift from ace-\nticlastic to hydrogenotrophic pathway was detected in the ther-\nmophilic reactor by isotopic analysis. 16S rRNA analysis showed\nthat the abundance of hydrogenotrophic methanogen, Meth-\nanobacterium and Methanoculleus, were enriched with the NH 4þ-N\nconcentration increasing, while aceticlastic methanogen Meth-\nanosaeta was reduced in the mesophilic reactor; Methanosaeta\ndisappeared, while Methanosarcina multiplied in the thermophilic\nreactor.\nAcknowledgements\nThis research was supported by National Science Foundation of\nChina (51508015) and Fundamental Research Funds for the Central\nUniversities (buctrc201505, ZY1510).\nAbbreviations\nVFA volatile fatty acid\nTVFA total volatile fatty acid\nAD anaerobic digestion\nMP methane production; SAO: syntrophic acetate oxidation\nSAOB syntrophic acetate oxidation bacteria; ac: carbon\nisotope fractionations\nBA basal anaerobic; CSTR: continuous stirred tank reactor;\nOLR: organic loading rate; HRT: hydraulic retention\ntimes; COD: chemical oxygen demand;\nANOVA an analysis of variance; BD: biodegradability; TAN: total\nammonia\nFA free ammonia; IC 50: 50% inhibition; CCA: canonical\ncorrelation analysis\nR",
+          "score": 0.5156
+        },
+        {
+          "chunk_id": 800,
+          "title": "Yang-2018-Effect-of-ammonia-on-methane-produc 第3页",
+          "source": "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf",
+          "collection": "literature_inhibition",
+          "citation": "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf 第3页",
+          "page": 3,
+          "snippet": "der ther-\nmophilic conditions with or without high ammonia level and the\nthermophilic methanogens may be more tolerable to FA than\nmesophilic methanogens. In this research, MP inhibition started\nfrom the TAN of 2 and 5 g NH 4þ-N/L under mesophilic and ther-\nmophilic conditions, correspondingly. This result is similar to a\nZ. Yang et al. / Renewable Energy 125 (2018) 915 e925 917",
+          "score": 0.4412
+        },
+        {
+          "chunk_id": 782,
+          "title": "Yang-2018-Effect-of-ammonia-on-methane-produc 第1页",
+          "source": "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf",
+          "collection": "literature_inhibition",
+          "citation": "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf 第1页",
+          "page": 1,
+          "snippet": "Effect of ammonia on methane production, methanogenesis pathway,\nmicrobial community and reactor performance under mesophilic and\nthermophilic conditions\nZiyi Yang a, Wen Wang a, *, Yanfeng He a, Ruihong Zhang b, Guangqing Liu a\na Biomass Energy and Environmental Engineering Research Center, Beijing University of Chemical Technology, Beijing 100029, China\nb Department of Biological & Agricultural Engineering, University of California, Davis, CA95616, USA\narticle info\nArticle history:\nReceived 15 October 2017\nReceived in revised form\n28 January 2018\nAccepted 13 March 2018\nAvailable online 13 March 2018\nKeywords:\nAnaerobic digestion\nAmmonia\nMethanogenesis pathway\nMesophilic\nThermophilic\nabstract\nThe effects of ammonia on methane production, methanogenesis pathway, microbial community, and\nreactor performance were investigated in this study. More than 20% of methane production loss was\nobserved in mesophilic and thermophilic reactors when the ammonia level exceeded 2 and 5 g NH 4þ-N/L,\nrespectively. The volatile fatty acid (VFA) data indicated that acetogenesis and methanogenesis are\nstrongly in ﬂuenced by ammonia inhibition under the mesophilic condition, while methanogenesis was\nmai",
+          "score": 0.4393
+        },
+        {
+          "chunk_id": 783,
+          "title": "Yang-2018-Effect-of-ammonia-on-methane-produc 第1页",
+          "source": "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf",
+          "collection": "literature_inhibition",
+          "citation": "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf 第1页",
+          "page": 1,
+          "snippet": "icated that acetogenesis and methanogenesis are\nstrongly in ﬂuenced by ammonia inhibition under the mesophilic condition, while methanogenesis was\nmainly affected under thermophilic condition. No evident methanogenesis pathway shift was found\nin the mesophilic reactor, whereas the increase in NH 4þ-N concentration to more than 5 g/L led to a\nclear shift from aceticlastic to complex and ﬂexible pathways, thereby signi ﬁcantly enriching the\nhydrogenotrophic pathway in the thermophilic reactor. The function and response of the microbial\ncommunity to ammonia inhibition were consistent despite the difference in population and diversity\nunder mesophilic and thermophilic conditions.\n© 2018 Elsevier Ltd. All rights reserved.\n1. Introduction\nAnaerobic digestion (AD) has gained considerable importance in\nrecent years because biogas, a form of renewable energy, can be\nproduced through biological treatment of waste and wastewater to\nachieve waste control and energy recovery [1,2]. Speciﬁcally, the AD\nis a four-step process consisting of hydrolysis, acidogenesis, ace-\ntogenesis, and methanogenesis [ 3]. Many environmental factors\ninﬂuence the AD [ 4,5], and ammonia toxicity is one of the most\ns",
+          "score": 0.4385
+        },
+        {
+          "chunk_id": 804,
+          "title": "Yang-2018-Effect-of-ammonia-on-methane-produc 第5页",
+          "source": "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf",
+          "collection": "literature_inhibition",
+          "citation": "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf 第5页",
+          "page": 5,
+          "snippet": "35,36]. In this perspective, ammonia concentration is recom-\nmended to be maintained at lower than 4 and 5 g NH 4þ-N/L in the\nmesophilic and thermophilic reactors, correspondingly, to avoid\nVFA accumulation and unhealthy AD.\nThe comparison of the data in Table 1 and Fig. 1 indicated that\nthe VFA concentrations differ considerably (that is, 232 and\n2179 mg HAc/L in the mesophilic and thermophilic reactors,\nrespectively) with nearly the same MP (BD approximately 78%)\nobtained in phases 2 and 5 in the mesophilic and thermophilic\nreactors, correspondingly. The TAN and FA were 2.5 and 4.8 times\nhigher in phase 5 in the thermophilic reactor than in phase 2 in\nthe mesophilic reactor, respectively. This result may be due to the\nacidogenesis ef ﬁciency was lower under mesophilic condition\nthan under thermophilic condition. This difference implied that\nammonia toxicity inhibits not only methanogenesis but also\nacidogenesis under mesophilic condition, while the ammonia\ninhibition may focus on methanogenesis under the thermophilic\ncondition. This ﬁnding was different from previous studies that\nstate that ammonia inhibition contributes to methanogenesis\n[37,38].\nThe VFA composition is further a",
+          "score": 0.4252
+        },
+        {
+          "chunk_id": 799,
+          "title": "Yang-2018-Effect-of-ammonia-on-methane-produc 第3页",
+          "source": "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf",
+          "collection": "literature_inhibition",
+          "citation": "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf 第3页",
+          "page": 3,
+          "snippet": "e ratio of MP to theoretical MP) in\ndifferent phases are summarized in Table 1. According to element\nanalysis, theoretical MP was calculated at 1855 mL/d. Glucose was\nconverted to methane almost stoichiometrically in phases 0 and 1\nin the mesophilic reactors, and BD was higher than 90%. While\nhigher than 90% of BD was observed from phases 0 e3 in the\nthermophilic reactor. The extent of the decrease in MP under\nmesophilic and thermophilic conditions was different. The BD of\nthe thermophilic reactor was approximately 78%, which is similar\nto the result of phase 2 in the mesophilic reactor, with 5 g NH 4þ-N/L\n(phase 5).\nThe MP in each phase was lower in the mesophilic reactor than\nin the thermophilic reactor. The MP in the mesophilic reactor\ncomprises 82% e92% of the MP in the thermophilic reactor from\nphases 0 e3 and constitutes 57% e67% from phases 4 e7. With the\nsame total ammonia (TAN), although the free ammonia (FA) in\nthermophilic reactor was higher than that in mesophilic reactor,\nthe MP data indicated more superior performance under ther-\nmophilic conditions with or without high ammonia level and the\nthermophilic methanogens may be more tolerable to FA than\nmesophilic methanog",
+          "score": 0.4231
+        },
+        {
+          "chunk_id": 789,
+          "title": "Yang-2018-Effect-of-ammonia-on-methane-produc 第2页",
+          "source": "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf",
+          "collection": "literature_inhibition",
+          "citation": "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf 第2页",
+          "page": 2,
+          "snippet": "2. Materials and methods\n2.1. Inocula and feedstock\nSewage sludge derived from a mesophilic sewage treatment\nplant in Beijing, China was used as the inoculum for mesophilic\nreactors. Thermophilic-digested s\nge sludge derived from a mesophilic sewage treatment\nplant in Beijing, China was used as the inoculum for mesophilic\nreactors. Thermophilic-digested sludge obtained from a continu-\nously stirred tank reactor in Jiangsu province, China was used as the\ninoculum for thermophilic reactors. Basal anaerobic (BA) medium\n[26] was used as feedstock for the experiments, with glucose and\nNH4Cl as carbon and ammonium nitrogen source, respectively.\n2.2. Experimental design and procedure\nThe experiment was carried out in mesophilic (37 /C14C) and\nthermophilic (55 /C14C) continuous stirred tank reactor (CSTR) fer-\nmenters. The total and working volume of the fermenters were 6L\nand 5L, respectively. The organic loading rate (OLR) in each reactor\nwas set as 1 g glucose/L/d and hydraulic retention times (HRT) of 10\ndays. Mesophilic and thermophilic fermenters were start-up\nwithout any kind of ammonia nitrogen addition and the total\nammonia was tested of 0.21 g NH 3-N/L and 0.39 g NH 3-N/L\nrespect",
+          "score": 0.4114
+        }
+      ],
+      "trace_id": "6149bc31-da77-40d3-83e8-855a0ef107b6",
+      "agent_id": "research",
+      "runtime": {
+        "answer_mode": "model_with_references",
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "knowledge_hits": 8,
+        "qa_ready": true
+      }
+    }
+  },
+  {
+    "caseId": "mixed",
+    "question": "厌氧消化中 mesophilic 和 thermophilic 条件如何影响 free ammonia (FAN)？请区分 TAN、FAN 和 methane inhibition threshold，并比较论文证据。",
+    "seconds": 5.59,
+    "checks": {
+      "http": true,
+      "realModel": true,
+      "validCitations": true,
+      "pdfPages": true
+    },
+    "evidenceVerification": [
+      {
+        "source": "Progress in inhibition mechanisms and process.pdf",
+        "page": 3,
+        "snippetVerified": true
+      },
+      {
+        "source": "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf",
+        "page": 4,
+        "snippetVerified": true
+      },
+      {
+        "source": "Sayara-2019-A Review on Anaerobic Digestion of.pdf",
+        "page": 10,
+        "snippetVerified": true
+      },
+      {
+        "source": "Progress in inhibition mechanisms and process.pdf",
+        "page": 3,
+        "snippetVerified": true
+      },
+      {
+        "source": "Sayara-2019-A Review on Anaerobic Digestion of.pdf",
+        "page": 10,
+        "snippetVerified": true
+      },
+      {
+        "source": "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf",
+        "page": 3,
+        "snippetVerified": true
+      },
+      {
+        "source": "Progress in inhibition mechanisms and process.pdf",
+        "page": 7,
+        "snippetVerified": true
+      },
+      {
+        "source": "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf",
+        "page": 2,
+        "snippetVerified": true
+      }
+    ],
+    "response": {
+      "ok": true,
+      "answer": "### 研究结论\n在相同pH下，升温至thermophilic（55 °C）会显著提高FAN占TAN的比例，从而在相同TAN暴露下造成更强的FAN抑制压力；但\"thermophilic抑制阈值更高\"与\"thermophilic更易受FAN抑制\"两类结论并存，属条件性结论，取决于所采用的阈值指标（FAN vs TAN）与响应终点。\n\n### 文献证据对照\n- FAN与TAN的化学平衡关系及pH依赖性：pH 7、35 °C时FAN不足TAN的1%，同温pH 8时升至10% [1]；FAN由TAN、pH与温度依赖的解离常数共同决定 [6]。\n- 温度对FAN暴露的影响：55 °C下FAN浓度约为同pH中温条件的六倍 [1]（转引自该文所引Kayhanian）；温度由60降至37 °C可提高高氨条件下的沼气产量 [1]。\n- 抑制阈值随温度的变化：FA抑制阈值从中温到高温由0.22 g NH3-N/L升至0.69 g NH3-N/L [2]（该文引言转述）；TAN抑制浓度中温4.1 g/L、高温5.77 g/L [2]（转述）。\n- 作者自身实验：中温下TAN >4 g NH4+-N/L出现50%甲烷产生抑制（IC50），高温在实验范围内未出现 [2]（表 1）；高温下700 mg NH3-N/L可能抑制产甲烷 [4]。\n\n### 机理与差异解释\nFAN为膜渗透性分子，进入细胞后扰乱胞内pH，被认为是产甲烷菌群受抑的主因，且乙酸营养型产甲烷比氢营养型更敏感 [4][5]。温度升高改变解离平衡，使FAN/TAN比例上升，故同一TAN下高温FAN暴露更高 [1][6]。此处为模型推断：阈值\"升高\"与\"更易抑制\"并不矛盾——前者以FAN或TAN为横坐标、以IC50为终点，后者以相同TAN下的FAN暴露为比较基准；两者指标与终点不同，不能直接判为科学冲突。底物、接种物、pH与驯化期差异亦被列为抑制浓度范围宽的原因 [5]。\n\n### 证据局限\n[2]为中温/高温CSTR、葡萄糖+NH4Cl、OLR 1 g葡萄糖/L/d、HRT 10 d的连续实验，其IC50结论限于该体系；[6]为纯培养与互营培养的批次实验，不能与[2]混为同一实验。[1][4][5]为综述性二手转述，原始实验条件未在本轮资料中给出。FAN计算所依据的Ka值仅见于[6]所述37与55 °C条件。上述\"指标差异解释冲突\"及温度—FAN—抑制的因果链属模型推断，超出原文直接证据。",
+      "citations": [
+        "Progress in inhibition mechanisms and process.pdf 第3页",
+        "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf 第4页",
+        "Sayara-2019-A Review on Anaerobic Digestion of.pdf 第10页",
+        "Progress in inhibition mechanisms and process.pdf 第3页",
+        "Sayara-2019-A Review on Anaerobic Digestion of.pdf 第10页",
+        "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf 第3页",
+        "Progress in inhibition mechanisms and process.pdf 第7页",
+        "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf 第2页"
+      ],
+      "chunks": [
+        {
+          "chunk_id": 365,
+          "title": "Progress in inhibition mechanisms and process 第3页",
+          "source": "Progress in inhibition mechanisms and process.pdf",
+          "collection": "literature_inhibition",
+          "citation": "Progress in inhibition mechanisms and process.pdf 第3页",
+          "page": 3,
+          "snippet": "microorganisms with\nlow methane production as it could diffuse passively into the bac-\nterial cells [5,89]. Fernandes et al. [90] demonstrated that free\nammonia concentration represented less than 1% from the TAN when\nthe anaerobic digesters operated at pH 7 and 35 °C; while, at the\nsame temperature, but at pH 8, the FAN increases to 10%. Kayhanian\n[67] showed that FAN concentration at thermophilic (55 °C) tem-\nperatures was six times higher than that under mesophilic conditions\nat the same pH value. Siles et al. [94] observed that when the con-\ncentration of ammonia was increased to 620 mg FAN/L in the\nammonia toxicity test, a gradual decrease of 21% was observed for\nthe biogas production. In addition, higher process temperature also\nresults in a higher excretion of free ammonia. When decrease in\noperating temperature from 60 to 37°C in anaerobic digesters with a\nhigh ammonia concentration provided an increase in biogas yield[5].\nUntil now, there was no clarity in inhibiting concentrations of\nammonia nitrogen or free ammonia in anaerobic digestion system for\nthe particular substrates.\nSeveral ammonia inhibition mechanisms of changes in the\nintracellular pH value, increase of main",
+          "score": 0.5808
+        },
+        {
+          "chunk_id": 801,
+          "title": "Yang-2018-Effect-of-ammonia-on-methane-produc 第4页",
+          "source": "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf",
+          "collection": "literature_inhibition",
+          "citation": "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf 第4页",
+          "page": 4,
+          "snippet": "previous study, which demonstrated different toleration of\nmethanogens under different temperatures; the inhibition\nthreshold of FA with the temperature change from mesophilic to\nthermophilic increased from 0.22 g NH 3-N/L to 0.69 g NH 3-N/L\n[25]. Higher ammonia inhibition threshold is reported that\nammonia inhibition is caused by TAN with 4.1 g/L under meso-\nphilic condition [ 33] and 5.77 g/L under thermophilic condition\n[34]. In this research, a 50% inhibition (IC 50) of MP occurred with\nTAN higher than 4 g NH 4þ-N/L under mesophilic condition but did\nnot occur within experimental range under thermophilic\ncondition ( Table 1 ).\n3.2. Effect of different ammonia concentrations on degradation\nperformance\nThe glucose concentration in the ef ﬂuent of the two reactors\nwas nearly zero throughout the experimental period, thereby\nindicating full conversion of the substrate. The pH of the two\nFig. 1. Methane production (a) and TVFA concentration (b) in different phases.\nTable 1\nMethane production, biodegradability, TAN, and FAN concentration in different phases.\nPhase 0 Phase 1 Phase 2 Phase 3 Phase 4 Phase 5 Phase 6 Phase 7\nMesophilic M0 M1 M2 M3 M4 M5 M6 M7\nMP (mL/d) 1716 ± 162 1693 ± 6",
+          "score": 0.5335
+        },
+        {
+          "chunk_id": 2660,
+          "title": "Sayara-2019-A Review on Anaerobic Digestion of 第10页",
+          "source": "Sayara-2019-A Review on Anaerobic Digestion of.pdf",
+          "collection": "literature_theory",
+          "citation": "Sayara-2019-A Review on Anaerobic Digestion of.pdf 第10页",
+          "page": 10,
+          "snippet": "Appl. Sci. 2019, 9, 4655 10 of 23\n4. AD Stability or Inhibition\nThe anaerobic process is a sensitive process, where any variation or ﬂuctuation in the optimum\noperational conditions could a ﬀect or even inhibit the process. In this regard, and in order to\nensure stable conditions, it is important to achieve or maintain a balance between the acidogenic and\nmethanogenic microorganisms. Usually, the inhibition of the anaerobic process is evidenced by the\ndecrease in steady-state methane yield rates.\n4.1. Eﬀect of Ammonia\nAmmonia, which is the end-product of anaerobic digestion of proteins, urea, and nucleic acids [94],\nplays a major role in the performance and stability of the anaerobic digestion process [ 6]. Optimal\nammonia concentration ensures suﬃcient buﬀer capacity for the methanogenic medium, especially for\nnitrogen-rich organic feedstock. However, excess ammonia concentration is usually reported as the\nfundamental cause of digester failure when it exceeds the inhibition threshold levels [95–99]. Inhibition\nis caused by total ammonia nitrogen (TAN) concentration, which is a combination of free (unionized)\nammonia nitrogen (FAN) and ionized ammonium nitrogen (NH4+) [6,100–102].",
+          "score": 0.5233
+        },
+        {
+          "chunk_id": 363,
+          "title": "Progress in inhibition mechanisms and process 第3页",
+          "source": "Progress in inhibition mechanisms and process.pdf",
+          "collection": "literature_inhibition",
+          "citation": "Progress in inhibition mechanisms and process.pdf 第3页",
+          "page": 3,
+          "snippet": "g N/L urea addition. Liu et al. [87]\nfound that the SCOD/TAN (soluble COD/total ammonia nitrogen)\nratio was presented to be the key controlling factor for the anae-\nrobic treatment of semi-digested chicken manure, and further\nvalidation through shock loading and ammonia inhibition\nexperiments were conducted.\nIn addition, the total ammonia nitrogen (TAN) which shows\ninhibition in AD process is combined with free ammonia nitrogen\n(FAN) and ionized ammonium nitrogen (NH þ4 ) [81,88,89], which\nare in a chemical equilibrium forming the TAN. However, it should\nbe noted that the inhibition by ammonia in the AD process is not\nonly related directly to the TAN concentration but also to the FAN\nlevels which is considered to be the main cause of inhibition of\nmethanogenic microﬂora [90,91]. A free ammonia concentration of\n700 mg NH 3–N/L may cause inhibition in methane production\nunder thermophilic conditions. Free ammonia is a cell membrane-\npermeable molecule for which methanogens, executing the ﬁnal\nstep in AD, have a very low tolerance. Moreover, acetoclastic\nmethanogenesis is more susceptible to inhibition of free ammonia\nthan hydrogenotrophic methanogenesis. In addition the acet-\noclasti",
+          "score": 0.4765
+        },
+        {
+          "chunk_id": 2661,
+          "title": "Sayara-2019-A Review on Anaerobic Digestion of 第10页",
+          "source": "Sayara-2019-A Review on Anaerobic Digestion of.pdf",
+          "collection": "literature_theory",
+          "citation": "Sayara-2019-A Review on Anaerobic Digestion of.pdf 第10页",
+          "page": 10,
+          "snippet": "nia nitrogen (TAN) concentration, which is a combination of free (unionized)\nammonia nitrogen (FAN) and ionized ammonium nitrogen (NH4+) [6,100–102].\nTAN concentrations between 1500–7000 mg N /L were found to be inhibitory for anaerobic\ndigestion [98,103]. This broad range of inhibiting concentrations might be explained by diﬀerent causes,\nincluding diﬀerences in substrates composition, inoculum origin, environmental and operational\nconditions (temperature, pH), and acclimation periods [ 97]. However, it should be noted that any\nprobable inhibition by ammonia in the anaerobic digestion process should not only be directly attributed\nto the TAN concentration, but to the FAN levels, as this is believed to be the prime cause of inhibition\nof methanogenic microﬂora [104,105].\n4.1.1. Mechanism of Inhibition by Ammonia\nMicroorganism growth and maintenance of an appropriate level of alkalinity within the AD\nreactor are both fundamentally based on ammonia concentration, and as such it is noted as a decisive\nelement in the process stability [6]. The reason behind considering FAN as the main cause of inhibition\nis related to its high permeability to bacterial cell membranes [106]. The diﬀusio",
+          "score": 0.4509
+        },
+        {
+          "chunk_id": 694,
+          "title": "Wang-2015-Ammonia-effect-on-hydrogenotrophic- 第3页",
+          "source": "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf",
+          "collection": "literature_inhibition",
+          "citation": "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf 第3页",
+          "page": 3,
+          "snippet": "o r\nmesophilic and 55± 1◦C for thermophilic), and all experiments\nwere performed in triplicates (n= 3).\nAnalytical methods\nMethane accumulation in the headspace of the batch reactors\nof hydrogenotrophic methanogens and syntrophic cultivation\nwere measured by using Shimadzu-14A gas chromatographer\n(GC) equipped with a thermal FID detector which uses hydrogen\nas a carrier gas (Shimadzu, Kyoto, Japan) (Floreset al. 2015). For\npresenting the growth of SAOB, Spectronic 20D+ Spectropho-\ntometer was used for measuring the optical density at 600nm\n(OD600)(Thermoscientific,Soeborg,Denmark)(Tom ´as et al.2013).\nCalculations\nFree ammonia\nThe free ammonia concentrations were calculated based on the\nfollowing equation (Fotidiset al. 2013):\nFAN = TAN\n1 + 10−pHKa ,\nwhere TAN is the total ammonia nitrogen,Ka is a dissociation\nconstant that reflects on temperature with values 1.29× 10−9\nand 3.91 × 10−9 for 37◦Ca n d5 5◦C respectively and pH is equal\nto the pH of the liquid, which was 7 in the current study.\nGrowth rate\nThe maximum specific growth rates (μmax) of hydrogenotrophic\nmethanogens, SAOB and syntrophic cultivation were calculated\nas the slope of the linear part of the semi-logarithmic grap",
+          "score": 0.4112
+        },
+        {
+          "chunk_id": 395,
+          "title": "Progress in inhibition mechanisms and process 第7页",
+          "source": "Progress in inhibition mechanisms and process.pdf",
+          "collection": "literature_inhibition",
+          "citation": "Progress in inhibition mechanisms and process.pdf 第7页",
+          "page": 7,
+          "snippet": "methods to enhance anaerobic digestion of organic solid waste. Appl Energy\n2014;123:143–56.\n[3] Pantaleo A, Gennaro BD, Shah N. Assessment of optimal size of anaerobic co-\ndigestion plants: an application to cattle farms in the province of Bari. Renew\nSustain Energy Rev 2013;20:57 –70.\n[4] Parkin GF, Miller SW. Response of methane fermentation to continuous\naddition of selected industrial toxicants. In: Proceedings of the 37th Purdue\nindustrial waste conference, West Lafayette (Ind); 1983.\n[5]\ncontinuous\naddition of selected industrial toxicants. In: Proceedings of the 37th Purdue\nindustrial waste conference, West Lafayette (Ind); 1983.\n[5] Chen Y, Cheng JJ, Creamer KS. Inhibition of anaerobic digestion process: a\nreview. Bioresour Technol 2008;99:4044 –64.\n[6] Edelmann W, Baier U, Engeli H. Environmental aspects of the anaerobic\ndigestion of the OFMSW and agricultural wastes. Water Sci Technol\n2005;52:553–9.\n[7] Carrere H, Dumas C, Battimelli A, Batsone DJ, Delgenes JP, Steyer JP, et al.\nPretreatment methods to improve sludge anaerobic degradability: a review. J\nHazard Mater 2010;183:1–15.\n[8] Sonesson U, Bjorklund A, Carlsson M, Dalemo M. Environmental and eco-\nnomic analysis of ",
+          "score": null
+        },
+        {
+          "chunk_id": 789,
+          "title": "Yang-2018-Effect-of-ammonia-on-methane-produc 第2页",
+          "source": "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf",
+          "collection": "literature_inhibition",
+          "citation": "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf 第2页",
+          "page": 2,
+          "snippet": "2. Materials and methods\n2.1. Inocula and feedstock\nSewage sludge derived from a mesophilic sewage treatment\nplant in Beijing, China was used as the inoculum for mesophilic\nreactors. Thermophilic-digested s\nge sludge derived from a mesophilic sewage treatment\nplant in Beijing, China was used as the inoculum for mesophilic\nreactors. Thermophilic-digested sludge obtained from a continu-\nously stirred tank reactor in Jiangsu province, China was used as the\ninoculum for thermophilic reactors. Basal anaerobic (BA) medium\n[26] was used as feedstock for the experiments, with glucose and\nNH4Cl as carbon and ammonium nitrogen source, respectively.\n2.2. Experimental design and procedure\nThe experiment was carried out in mesophilic (37 /C14C) and\nthermophilic (55 /C14C) continuous stirred tank reactor (CSTR) fer-\nmenters. The total and working volume of the fermenters were 6L\nand 5L, respectively. The organic loading rate (OLR) in each reactor\nwas set as 1 g glucose/L/d and hydraulic retention times (HRT) of 10\ndays. Mesophilic and thermophilic fermenters were start-up\nwithout any kind of ammonia nitrogen addition and the total\nammonia was tested of 0.21 g NH 3-N/L and 0.39 g NH 3-N/L\nrespect",
+          "score": null
+        }
+      ],
+      "trace_id": "ab3d9d1f-a7c6-42ac-b2a7-981a41556d53",
+      "agent_id": "research",
+      "runtime": {
+        "answer_mode": "model_with_references",
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "knowledge_hits": 8,
+        "qa_ready": true
+      }
+    }
+  },
+  {
+    "caseId": "english",
+    "question": "How do mesophilic and thermophilic conditions affect free ammonia (FAN) in anaerobic digestion? Distinguish TAN, FAN and methane inhibition thresholds and compare the paper evidence. Answer in Chinese.",
+    "seconds": 5.39,
+    "checks": {
+      "http": true,
+      "realModel": true,
+      "validCitations": true,
+      "pdfPages": true
+    },
+    "evidenceVerification": [
+      {
+        "source": "Progress in inhibition mechanisms and process.pdf",
+        "page": 3,
+        "snippetVerified": true
+      },
+      {
+        "source": "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf",
+        "page": 4,
+        "snippetVerified": true
+      },
+      {
+        "source": "Sayara-2019-A Review on Anaerobic Digestion of.pdf",
+        "page": 10,
+        "snippetVerified": true
+      },
+      {
+        "source": "Progress in inhibition mechanisms and process.pdf",
+        "page": 3,
+        "snippetVerified": true
+      },
+      {
+        "source": "Sayara-2019-A Review on Anaerobic Digestion of.pdf",
+        "page": 10,
+        "snippetVerified": true
+      },
+      {
+        "source": "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf",
+        "page": 3,
+        "snippetVerified": true
+      },
+      {
+        "source": "Progress in inhibition mechanisms and process.pdf",
+        "page": 7,
+        "snippetVerified": true
+      },
+      {
+        "source": "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf",
+        "page": 2,
+        "snippetVerified": true
+      }
+    ],
+    "response": {
+      "ok": true,
+      "answer": "### 研究结论\n\n中温与高温条件通过改变游离氨（FAN）的平衡分配和产甲烷菌群耐受性，共同决定氨抑制阈值；高温下FAN占比更高、FA抑制阈值也更高，但产甲烷响应并不必然更差。该结论为条件性结论：FAN随温度升高而升高有直接证据[1]，而FA抑制阈值随温度升高而升高、以及中温IC50出现而高温未出现，来自特定连续搅拌釜实验[2]。\n\n### 文献证据对照\n\n- 中温35 °C、pH 7时FAN不足TAN的1%，同温pH 8时升至10%；55 °C下FAN浓度约为同pH中温条件的6倍（转引自本轮[1]）。\n- 中温向高温变化时，FA抑制阈值由0.22 g NH3-N/L升至0.69 g NH3-N/L（转引自本轮[2]）；另有报道TAN抑制浓度中温4.1 g/L、高温5.77 g/L（转引自本轮[2]）。\n- 该CSTR实验中，中温条件TAN高于4 g NH4+-N/L时出现50%产甲烷抑制（IC50），高温条件在实验范围内未出现[2]（表1）。\n- TAN抑制范围为1500–7000 mg N/L，宽泛区间归因于底物、接种物、温度、pH与驯化差异[5]；高温下700 mg NH3-N/L可能抑制产甲烷[4]，620 mg FAN/L时沼气产量渐降21%（转引自本轮[1]）。\n\n### 机理与差异解释\n\nFAN为膜透过性分子，是抑制产甲烷菌群的主要形态，而TAN是FAN与NH4+的化学平衡总和[3][5]。温度升高改变解离平衡，使FAN占比上升[1][6]，这是高温下相同TAN对应更高FAN暴露的物理化学基础。但暴露升高不等于耐受性下降：高温产甲烷菌群可能经驯化获得更高阈值[2]，故阈值差异与暴露差异须分开解读。此处为模型推断：不同文献阈值差异还可能源于底物、接种物来源与驯化历史的不同[5]，而非单一温度效应。\n\n### 证据局限\n\n[2]为葡萄糖配水CSTR、单一接种物来源，高温未出现IC50仅限其实验浓度范围，不能外推为高温普遍无抑制。[1][4][5]多为综述性转述，原始实验条件未完整呈现。纯培养与互营培养、批次与连续体系的证据未在本轮资料中系统区分，重复与统计信息除[6]注明三次重复外多未确定。FAN计算式仅[6]给出变量关系，本文未复算。上述机理归纳与跨文献差异归因属模型推断，超出原文直接证据。",
+      "citations": [
+        "Progress in inhibition mechanisms and process.pdf 第3页",
+        "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf 第4页",
+        "Sayara-2019-A Review on Anaerobic Digestion of.pdf 第10页",
+        "Progress in inhibition mechanisms and process.pdf 第3页",
+        "Sayara-2019-A Review on Anaerobic Digestion of.pdf 第10页",
+        "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf 第3页",
+        "Progress in inhibition mechanisms and process.pdf 第7页",
+        "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf 第2页"
+      ],
+      "chunks": [
+        {
+          "chunk_id": 365,
+          "title": "Progress in inhibition mechanisms and process 第3页",
+          "source": "Progress in inhibition mechanisms and process.pdf",
+          "collection": "literature_inhibition",
+          "citation": "Progress in inhibition mechanisms and process.pdf 第3页",
+          "page": 3,
+          "snippet": "microorganisms with\nlow methane production as it could diffuse passively into the bac-\nterial cells [5,89]. Fernandes et al. [90] demonstrated that free\nammonia concentration represented less than 1% from the TAN when\nthe anaerobic digesters operated at pH 7 and 35 °C; while, at the\nsame temperature, but at pH 8, the FAN increases to 10%. Kayhanian\n[67] showed that FAN concentration at thermophilic (55 °C) tem-\nperatures was six times higher than that under mesophilic conditions\nat the same pH value. Siles et al. [94] observed that when the con-\ncentration of ammonia was increased to 620 mg FAN/L in the\nammonia toxicity test, a gradual decrease of 21% was observed for\nthe biogas production. In addition, higher process temperature also\nresults in a higher excretion of free ammonia. When decrease in\noperating temperature from 60 to 37°C in anaerobic digesters with a\nhigh ammonia concentration provided an increase in biogas yield[5].\nUntil now, there was no clarity in inhibiting concentrations of\nammonia nitrogen or free ammonia in anaerobic digestion system for\nthe particular substrates.\nSeveral ammonia inhibition mechanisms of changes in the\nintracellular pH value, increase of main",
+          "score": 0.5808
+        },
+        {
+          "chunk_id": 801,
+          "title": "Yang-2018-Effect-of-ammonia-on-methane-produc 第4页",
+          "source": "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf",
+          "collection": "literature_inhibition",
+          "citation": "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf 第4页",
+          "page": 4,
+          "snippet": "previous study, which demonstrated different toleration of\nmethanogens under different temperatures; the inhibition\nthreshold of FA with the temperature change from mesophilic to\nthermophilic increased from 0.22 g NH 3-N/L to 0.69 g NH 3-N/L\n[25]. Higher ammonia inhibition threshold is reported that\nammonia inhibition is caused by TAN with 4.1 g/L under meso-\nphilic condition [ 33] and 5.77 g/L under thermophilic condition\n[34]. In this research, a 50% inhibition (IC 50) of MP occurred with\nTAN higher than 4 g NH 4þ-N/L under mesophilic condition but did\nnot occur within experimental range under thermophilic\ncondition ( Table 1 ).\n3.2. Effect of different ammonia concentrations on degradation\nperformance\nThe glucose concentration in the ef ﬂuent of the two reactors\nwas nearly zero throughout the experimental period, thereby\nindicating full conversion of the substrate. The pH of the two\nFig. 1. Methane production (a) and TVFA concentration (b) in different phases.\nTable 1\nMethane production, biodegradability, TAN, and FAN concentration in different phases.\nPhase 0 Phase 1 Phase 2 Phase 3 Phase 4 Phase 5 Phase 6 Phase 7\nMesophilic M0 M1 M2 M3 M4 M5 M6 M7\nMP (mL/d) 1716 ± 162 1693 ± 6",
+          "score": 0.5335
+        },
+        {
+          "chunk_id": 2660,
+          "title": "Sayara-2019-A Review on Anaerobic Digestion of 第10页",
+          "source": "Sayara-2019-A Review on Anaerobic Digestion of.pdf",
+          "collection": "literature_theory",
+          "citation": "Sayara-2019-A Review on Anaerobic Digestion of.pdf 第10页",
+          "page": 10,
+          "snippet": "Appl. Sci. 2019, 9, 4655 10 of 23\n4. AD Stability or Inhibition\nThe anaerobic process is a sensitive process, where any variation or ﬂuctuation in the optimum\noperational conditions could a ﬀect or even inhibit the process. In this regard, and in order to\nensure stable conditions, it is important to achieve or maintain a balance between the acidogenic and\nmethanogenic microorganisms. Usually, the inhibition of the anaerobic process is evidenced by the\ndecrease in steady-state methane yield rates.\n4.1. Eﬀect of Ammonia\nAmmonia, which is the end-product of anaerobic digestion of proteins, urea, and nucleic acids [94],\nplays a major role in the performance and stability of the anaerobic digestion process [ 6]. Optimal\nammonia concentration ensures suﬃcient buﬀer capacity for the methanogenic medium, especially for\nnitrogen-rich organic feedstock. However, excess ammonia concentration is usually reported as the\nfundamental cause of digester failure when it exceeds the inhibition threshold levels [95–99]. Inhibition\nis caused by total ammonia nitrogen (TAN) concentration, which is a combination of free (unionized)\nammonia nitrogen (FAN) and ionized ammonium nitrogen (NH4+) [6,100–102].",
+          "score": 0.5233
+        },
+        {
+          "chunk_id": 363,
+          "title": "Progress in inhibition mechanisms and process 第3页",
+          "source": "Progress in inhibition mechanisms and process.pdf",
+          "collection": "literature_inhibition",
+          "citation": "Progress in inhibition mechanisms and process.pdf 第3页",
+          "page": 3,
+          "snippet": "g N/L urea addition. Liu et al. [87]\nfound that the SCOD/TAN (soluble COD/total ammonia nitrogen)\nratio was presented to be the key controlling factor for the anae-\nrobic treatment of semi-digested chicken manure, and further\nvalidation through shock loading and ammonia inhibition\nexperiments were conducted.\nIn addition, the total ammonia nitrogen (TAN) which shows\ninhibition in AD process is combined with free ammonia nitrogen\n(FAN) and ionized ammonium nitrogen (NH þ4 ) [81,88,89], which\nare in a chemical equilibrium forming the TAN. However, it should\nbe noted that the inhibition by ammonia in the AD process is not\nonly related directly to the TAN concentration but also to the FAN\nlevels which is considered to be the main cause of inhibition of\nmethanogenic microﬂora [90,91]. A free ammonia concentration of\n700 mg NH 3–N/L may cause inhibition in methane production\nunder thermophilic conditions. Free ammonia is a cell membrane-\npermeable molecule for which methanogens, executing the ﬁnal\nstep in AD, have a very low tolerance. Moreover, acetoclastic\nmethanogenesis is more susceptible to inhibition of free ammonia\nthan hydrogenotrophic methanogenesis. In addition the acet-\noclasti",
+          "score": 0.4765
+        },
+        {
+          "chunk_id": 2661,
+          "title": "Sayara-2019-A Review on Anaerobic Digestion of 第10页",
+          "source": "Sayara-2019-A Review on Anaerobic Digestion of.pdf",
+          "collection": "literature_theory",
+          "citation": "Sayara-2019-A Review on Anaerobic Digestion of.pdf 第10页",
+          "page": 10,
+          "snippet": "nia nitrogen (TAN) concentration, which is a combination of free (unionized)\nammonia nitrogen (FAN) and ionized ammonium nitrogen (NH4+) [6,100–102].\nTAN concentrations between 1500–7000 mg N /L were found to be inhibitory for anaerobic\ndigestion [98,103]. This broad range of inhibiting concentrations might be explained by diﬀerent causes,\nincluding diﬀerences in substrates composition, inoculum origin, environmental and operational\nconditions (temperature, pH), and acclimation periods [ 97]. However, it should be noted that any\nprobable inhibition by ammonia in the anaerobic digestion process should not only be directly attributed\nto the TAN concentration, but to the FAN levels, as this is believed to be the prime cause of inhibition\nof methanogenic microﬂora [104,105].\n4.1.1. Mechanism of Inhibition by Ammonia\nMicroorganism growth and maintenance of an appropriate level of alkalinity within the AD\nreactor are both fundamentally based on ammonia concentration, and as such it is noted as a decisive\nelement in the process stability [6]. The reason behind considering FAN as the main cause of inhibition\nis related to its high permeability to bacterial cell membranes [106]. The diﬀusio",
+          "score": 0.4509
+        },
+        {
+          "chunk_id": 694,
+          "title": "Wang-2015-Ammonia-effect-on-hydrogenotrophic- 第3页",
+          "source": "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf",
+          "collection": "literature_inhibition",
+          "citation": "Wang-2015-Ammonia-effect-on-hydrogenotrophic-.pdf 第3页",
+          "page": 3,
+          "snippet": "o r\nmesophilic and 55± 1◦C for thermophilic), and all experiments\nwere performed in triplicates (n= 3).\nAnalytical methods\nMethane accumulation in the headspace of the batch reactors\nof hydrogenotrophic methanogens and syntrophic cultivation\nwere measured by using Shimadzu-14A gas chromatographer\n(GC) equipped with a thermal FID detector which uses hydrogen\nas a carrier gas (Shimadzu, Kyoto, Japan) (Floreset al. 2015). For\npresenting the growth of SAOB, Spectronic 20D+ Spectropho-\ntometer was used for measuring the optical density at 600nm\n(OD600)(Thermoscientific,Soeborg,Denmark)(Tom ´as et al.2013).\nCalculations\nFree ammonia\nThe free ammonia concentrations were calculated based on the\nfollowing equation (Fotidiset al. 2013):\nFAN = TAN\n1 + 10−pHKa ,\nwhere TAN is the total ammonia nitrogen,Ka is a dissociation\nconstant that reflects on temperature with values 1.29× 10−9\nand 3.91 × 10−9 for 37◦Ca n d5 5◦C respectively and pH is equal\nto the pH of the liquid, which was 7 in the current study.\nGrowth rate\nThe maximum specific growth rates (μmax) of hydrogenotrophic\nmethanogens, SAOB and syntrophic cultivation were calculated\nas the slope of the linear part of the semi-logarithmic grap",
+          "score": 0.4112
+        },
+        {
+          "chunk_id": 395,
+          "title": "Progress in inhibition mechanisms and process 第7页",
+          "source": "Progress in inhibition mechanisms and process.pdf",
+          "collection": "literature_inhibition",
+          "citation": "Progress in inhibition mechanisms and process.pdf 第7页",
+          "page": 7,
+          "snippet": "methods to enhance anaerobic digestion of organic solid waste. Appl Energy\n2014;123:143–56.\n[3] Pantaleo A, Gennaro BD, Shah N. Assessment of optimal size of anaerobic co-\ndigestion plants: an application to cattle farms in the province of Bari. Renew\nSustain Energy Rev 2013;20:57 –70.\n[4] Parkin GF, Miller SW. Response of methane fermentation to continuous\naddition of selected industrial toxicants. In: Proceedings of the 37th Purdue\nindustrial waste conference, West Lafayette (Ind); 1983.\n[5]\ncontinuous\naddition of selected industrial toxicants. In: Proceedings of the 37th Purdue\nindustrial waste conference, West Lafayette (Ind); 1983.\n[5] Chen Y, Cheng JJ, Creamer KS. Inhibition of anaerobic digestion process: a\nreview. Bioresour Technol 2008;99:4044 –64.\n[6] Edelmann W, Baier U, Engeli H. Environmental aspects of the anaerobic\ndigestion of the OFMSW and agricultural wastes. Water Sci Technol\n2005;52:553–9.\n[7] Carrere H, Dumas C, Battimelli A, Batsone DJ, Delgenes JP, Steyer JP, et al.\nPretreatment methods to improve sludge anaerobic degradability: a review. J\nHazard Mater 2010;183:1–15.\n[8] Sonesson U, Bjorklund A, Carlsson M, Dalemo M. Environmental and eco-\nnomic analysis of ",
+          "score": null
+        },
+        {
+          "chunk_id": 789,
+          "title": "Yang-2018-Effect-of-ammonia-on-methane-produc 第2页",
+          "source": "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf",
+          "collection": "literature_inhibition",
+          "citation": "Yang-2018-Effect-of-ammonia-on-methane-produc.pdf 第2页",
+          "page": 2,
+          "snippet": "2. Materials and methods\n2.1. Inocula and feedstock\nSewage sludge derived from a mesophilic sewage treatment\nplant in Beijing, China was used as the inoculum for mesophilic\nreactors. Thermophilic-digested s\nge sludge derived from a mesophilic sewage treatment\nplant in Beijing, China was used as the inoculum for mesophilic\nreactors. Thermophilic-digested sludge obtained from a continu-\nously stirred tank reactor in Jiangsu province, China was used as the\ninoculum for thermophilic reactors. Basal anaerobic (BA) medium\n[26] was used as feedstock for the experiments, with glucose and\nNH4Cl as carbon and ammonium nitrogen source, respectively.\n2.2. Experimental design and procedure\nThe experiment was carried out in mesophilic (37 /C14C) and\nthermophilic (55 /C14C) continuous stirred tank reactor (CSTR) fer-\nmenters. The total and working volume of the fermenters were 6L\nand 5L, respectively. The organic loading rate (OLR) in each reactor\nwas set as 1 g glucose/L/d and hydraulic retention times (HRT) of 10\ndays. Mesophilic and thermophilic fermenters were start-up\nwithout any kind of ammonia nitrogen addition and the total\nammonia was tested of 0.21 g NH 3-N/L and 0.39 g NH 3-N/L\nrespect",
+          "score": null
+        }
+      ],
+      "trace_id": "5485519d-1832-4dc7-acb3-ece268cf6efe",
+      "agent_id": "research",
+      "runtime": {
+        "answer_mode": "model_with_references",
+        "provider": "deepseek",
+        "model": "deepseek-flash",
+        "knowledge_hits": 8,
+        "qa_ready": true
+      }
+    }
+  }
+]

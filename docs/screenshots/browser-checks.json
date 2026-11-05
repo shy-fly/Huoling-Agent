@@ -1,0 +1,112 @@
+[
+  {
+    "page": "home",
+    "viewport": "desktop",
+    "overflow": false
+  },
+  {
+    "page": "qa",
+    "viewport": "desktop",
+    "overflow": false
+  },
+  {
+    "page": "compare",
+    "viewport": "desktop",
+    "overflow": false
+  },
+  {
+    "page": "media",
+    "viewport": "desktop",
+    "overflow": false
+  },
+  {
+    "page": "media-table",
+    "viewport": "desktop",
+    "overflow": false
+  },
+  {
+    "page": "falsification",
+    "viewport": "desktop",
+    "overflow": false
+  },
+  {
+    "page": "gaps",
+    "viewport": "desktop",
+    "overflow": false
+  },
+  {
+    "page": "design",
+    "viewport": "desktop",
+    "overflow": false
+  },
+  {
+    "page": "graph",
+    "viewport": "desktop",
+    "overflow": false
+  },
+  {
+    "page": "audit",
+    "viewport": "desktop",
+    "overflow": false
+  },
+  {
+    "page": "evolution",
+    "viewport": "desktop",
+    "overflow": false
+  },
+  {
+    "page": "home",
+    "viewport": "mobile",
+    "overflow": false
+  },
+  {
+    "page": "qa",
+    "viewport": "mobile",
+    "overflow": false
+  },
+  {
+    "page": "compare",
+    "viewport": "mobile",
+    "overflow": false
+  },
+  {
+    "page": "media",
+    "viewport": "mobile",
+    "overflow": false
+  },
+  {
+    "page": "media-table",
+    "viewport": "mobile",
+    "overflow": false
+  },
+  {
+    "page": "falsification",
+    "viewport": "mobile",
+    "overflow": false
+  },
+  {
+    "page": "gaps",
+    "viewport": "mobile",
+    "overflow": false
+  },
+  {
+    "page": "design",
+    "viewport": "mobile",
+    "overflow": false
+  },
+  {
+    "page": "graph",
+    "viewport": "mobile",
+    "overflow": false
+  },
+  {
+    "page": "audit",
+    "viewport": "mobile",
+    "overflow": false
+  },
+  {
+    "page": "evolution",
+    "viewport": "mobile",
+    "overflow": false
+  }
+]
