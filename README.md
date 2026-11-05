@@ -87,7 +87,6 @@ cd backend
 图表识别、实验提取及年代判断均有适用边界。
 详见 [作品介绍](docs/fireFairy作品介绍.md)、[API](docs/api.md) 和 [架构](docs/architecture/README.md)。
 
-
 ## 本轮验收与实机图
 
 离线真实接口联调（需要先初始化）：
@@ -105,5 +104,10 @@ backend\.venv\Scripts\python.exe scripts\verify_multilingual.py
 
 所有页面的实机图见 [截图索引](docs/screenshots/README.md)。
 双击 docs/screenshots/gallery.html 可打开桌面和手机图集。
-所有图来自真实界面操作。多模态页展示原图、表格行列、图注和原页入口。
+所有图来自真实界面操作。多模态页展示原图、表格行列、图注和原图入口。
 本包没有 .env、个人密钥、数据库或缓存，不会自动使用作者的模型额度。
+
+## 相关材料
+
+- [火灵厌氧运行 Agent 完整介绍（脱敏版）](火灵厌氧运行Agent-完整介绍.md) —
+  工业厌氧罐值班数字工程师方向的产品说明。与本仓库的科研文献方向同属「火灵」品牌，但是两条不同的产品线。

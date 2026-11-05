@@ -1,35 +1,53 @@
+# 环境与密钥
 .env
+.env.*
+!.env.example
+
+# Python
 .venv/
 __pycache__/
 *.pyc
 .pytest_cache/
+*.egg-info/
+
+# Node
 node_modules/
 dist/
 build/
-*.egg-info/
+frontend/dist/
+frontend/pnpm-lock.yaml
+frontend/pnpm-workspace.yaml
+
+# 编辑器与工作区缓存
+.workbuddy/
+.idea/
+.vscode/
+.cursor/
 .DS_Store
+Thumbs.db
+
+# 运行时数据
 backend/data/raw/
+backend/data/uploads/
+backend/data/media/
+backend/data/backups/
+backend/data/*.lock
+backend/data/llm_runtime.json
+backend/data/evidence-graphs.sqlite3*
 backend/logs/*.log
 backend/logs/*.jsonl
 !backend/logs/.gitkeep
-frontend/dist/
-frontend/visual-check/
-frontend/pnpm-lock.yaml
-frontend/pnpm-workspace.yaml
-docs/.v10-docx-review/
-backend/data/uploads/
-backend/data/*.lock
-backend/data/llm_runtime.json
-UI设计Skill实验档案/01-已安装skills/
-.cursor/
-backend/data/media/
-backend/data/evidence-graphs.sqlite3*
 
-.env.*
-!.env.example
+# 中间产物
+frontend/visual-check/
+docs/.v10-docx-review/
+UI设计Skill实验档案/01-已安装skills/
+release/
+
+# 数据库与模型文件
 *.db
 *.sqlite3*
 *.joblib
+
+# 文献语料：涉及出版社版权，不进入仓库
 knowledge/literature_corpus/
-backend/data/backups/
-release/
